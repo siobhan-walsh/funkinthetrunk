@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	}
+header img {
+	clear:both;
+	margin:none;
+	border:none;
+	width:100%;
+	max-height:1126px;
+	max-width:2000px;
+}
+nav {
+	left:0;
+	right:0;
+	width:100%;
+	background: #2f3036;
+	height:100%;
+	border:none;
+	clear:both;
+	}
+nav a {
+	color:#ffffff;
+	text-decoration:none;
+	}
+nav	li:hover > a {color:#7EC0FF;}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+		}
+nav li {
+	display: inline-block;
+	float: left;
+	width:20%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: #2f3036;
+	text-decoration: none;
+		}
+nav li:hover {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 50px;
+	line-height: 50px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+			}
+
+.music {
+	text-align:center;
+	clear:both;
+	float:left;
+}
+.music audio {
+	padding:10%;
+	clear:both;
+	float:left;
+}
