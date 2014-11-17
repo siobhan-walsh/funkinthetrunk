@@ -62,6 +62,14 @@ nav li:hover {
 }
 .music audio {
 	padding:10%;
-	clear:both;
 	float:left;
+	clear:none;
+	margin-left:10%;
+	margin-top::5%;
 }
+.slideshow img {
+	float:right;
+	margin-top:5%;
+	width:60%;
+	height:60%;
+		}
