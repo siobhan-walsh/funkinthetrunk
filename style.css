@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+body { color: #2f3036;
 	}
 .pagewrap {
 	position:relative;
@@ -92,9 +92,88 @@ nav li:hover {
 	padding:0;
 	position:relative;
 }
+<<<<<<< HEAD
 .slideshow li {
 	width:60%;
 	height:60%;
 	position:absolute;
 	list-style: none;
 }
+=======
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
+
+p.title {
+	font-size: 75px;
+	text-align:center;
+}
+
+p.link {
+	font-size: 50px;
+	text-align: center;
+	border-style: solid;
+	border-color: #2f3036;
+}
+
+a: link { color: #2f3036; }
+	a: visited {color: #a1a1a1; }
+	a: hover { color: #00a99a; }
+	a: active { color: #ffffff; }
+	
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 20px solid #2f3036;
+}
+
+.eventslist {
+	clear: both;
+	position: relative;
+	width: 100%;
+}
+.listwrap {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	width: 40%;
+}
+
+.listwrap li {
+	list-style-type: none;
+}
+	
+.border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00a99a;
+	text-align: center;
+	width: 100%;
+	margin: 5%;
+}
+.border li {
+	list-style-type: none;
+	text-decoration: none;
+}
+h1 {
+	text-align:center;
+}
+>>>>>>> eb320ed9bcae9af6eb4a65307c5d92afa0ae6880
