@@ -100,6 +100,66 @@ nav li:hover {
 	list-style: none;
 }
 
+<<<<<<< HEAD
+
+
+
+
+
+h2 {
+    color: black;
+    text-align: center;
+	padding-top: 5% 
+}
+P {
+	text-align: center;
+}
+#form-div {
+  background-color:#808080;
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:35px;
+  padding-bottom:50px;
+  width: 450px;
+  left: 50%;
+  position: absolute;
+  margin-top:30px;
+  margin-left: -260px;
+  margin-bottom:50px 
+}
+.feedback-input {
+  
+  font-size: 18px;
+  padding: 13px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+ }
+
+#button{
+  width: 100%;
+  border: #FFFFFF solid 6px;
+  background-color: #00CCCC;
+  color:#FFFFFF;
+  font-size:24px;
+  padding-top:22px;
+  padding-bottom:22px;
+}
+
+#button:hover{
+  background-color: gray;
+  color: #00CCCC;
+}
+ 
+  #form{
+    margin-right: 20%;
+    padding-left: 20%;
+}
+=======
 p.title {
 	font-size: 75px;
 	text-align:center;
@@ -158,4 +218,9 @@ a: link { color: #2f3036; }
 h1 {
 	text-align:center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> eb320ed9bcae9af6eb4a65307c5d92afa0ae6880
+>>>>>>> 236320e478ef8e8227c29748e2233e19dc328c23
+>>>>>>> 128a656d2aee45306cefc104d553cc9ba2c2b960
