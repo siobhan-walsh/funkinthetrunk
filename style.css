@@ -92,30 +92,12 @@ nav li:hover {
 	padding:0;
 	position:relative;
 }
-<<<<<<< HEAD
+
 .slideshow li {
 	width:60%;
 	height:60%;
 	position:absolute;
 	list-style: none;
-}
-=======
-@keyframes xfade{
-   0%{
-      opacity: 1;
-   }
-   10.5% {
-      opacity:1;
-   }
-   12.5%{
-      opacity: 0;
-   }
-   98% {
-      opacity:0;
-   }
-   100% {
-      opacity:1;
-   }
 }
 
 p.title {
@@ -176,4 +158,4 @@ a: link { color: #2f3036; }
 h1 {
 	text-align:center;
 }
->>>>>>> eb320ed9bcae9af6eb4a65307c5d92afa0ae6880
+
