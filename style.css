@@ -3,6 +3,13 @@
 
 body {
 	}
+.pagewrap {
+	position:relative;
+	width:980px;
+	clear:both;
+	float:none;
+	margin:auto;
+}
 header img {
 	clear:both;
 	margin:none;
@@ -68,63 +75,26 @@ nav li:hover {
 	margin-top::5%;
 }
 .slideshow {
+	background:#fff;
 	float:right;
 	position:relative;
 	margin-top:5%;
 	width:60%;
 	height:60%;
+	overflow:visible;
 		}
-.slideshow figure {
+#mask {
+	overflow:hidden;
+	height:inherit;
+}
+.slideshow ul {
 	margin:0;
+	padding:0;
+	position:relative;
+}
+.slideshow li {
+	width:60%;
+	height:60%;
 	position:absolute;
-}
-
-.slideshow img:nth-child(1) {
--webkit-animation: xfade 48s 42s  infinite;
--moz-animation: xfade 48s 42s  infinite;
--ms-animation: xfade 48s 42s infinite;
--o-animation: xfade 48s 42s infinite;
-animation: xfade 48s 42s infinite;
-}
-.slideshow img:nth-child(2) {
--webkit-animation: xfade 48s 36s infinite;
--moz-animation: xfade 48s 36s infinite;
--ms-animation: xfade 48s 36s infinite;
--o-animation: xfade 48s 36s infinite;
-animation: xfade 48s 36s infinite;
-}
-figure:nth-child(3) {
-   animation: xfade 48s 30s infinite;
-}
-figure:nth-child(4) {
-   animation: xfade 48s 24s infinite;
-}
-figure:nth-child(5) {
-   animation: xfade 48s 18s infinite;
-}
-figure:nth-child(6) {
-   animation: xfade 48s 12s infinite;
-}
-figure:nth-child(7) {
-   animation: xfade 48s 6s infinite;
-}
-figure:nth-child(8) {
-   animation: xfade 48s 0s infinite;
-}
-@keyframes xfade{
-   0%{
-      opacity: 1;
-   }
-   10.5% {
-      opacity:1;
-   }
-   12.5%{
-      opacity: 0;
-   }
-   98% {
-      opacity:0;
-   }
-   100% {
-      opacity:1;
-   }
+	list-style: none;
 }
