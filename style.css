@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+body { color: #2f3036;
 	}
 header img {
 	clear:both;
@@ -154,4 +154,36 @@ a: link { color: #2f3036; }
 	margin-left: auto;
 	margin-right: auto;
 	border-top: 20px solid #2f3036;
+}
+
+.eventslist {
+	clear: both;
+	position: relative;
+	width: 100%;
+}
+.listwrap {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	width: 40%;
+}
+
+.listwrap li {
+	list-style-type: none;
+}
+	
+.border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00a99a;
+	text-align: center;
+	width: 100%;
+	margin: 5%;
+}
+.border li {
+	list-style-type: none;
+	text-decoration: none;
+}
+h1 {
+	text-align:center;
 }
