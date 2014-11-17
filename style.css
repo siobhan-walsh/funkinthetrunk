@@ -1,8 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+body { color: #2f3036;
 	}
+.pagewrap {
+	position:relative;
+	width:980px;
+	clear:both;
+	float:none;
+	margin:auto;
+}
 header img {
 	clear:both;
 	margin:none;
@@ -68,49 +75,31 @@ nav li:hover {
 	margin-top::5%;
 }
 .slideshow {
+	background:#fff;
 	float:right;
 	position:relative;
 	margin-top:5%;
 	width:60%;
 	height:60%;
+	overflow:visible;
 		}
-.slideshow figure {
+#mask {
+	overflow:hidden;
+	height:inherit;
+}
+.slideshow ul {
 	margin:0;
+	padding:0;
+	position:relative;
+}
+<<<<<<< HEAD
+.slideshow li {
+	width:60%;
+	height:60%;
 	position:absolute;
+	list-style: none;
 }
-
-.slideshow img:nth-child(1) {
--webkit-animation: xfade 48s 42s  infinite;
--moz-animation: xfade 48s 42s  infinite;
--ms-animation: xfade 48s 42s infinite;
--o-animation: xfade 48s 42s infinite;
-animation: xfade 48s 42s infinite;
-}
-.slideshow img:nth-child(2) {
--webkit-animation: xfade 48s 36s infinite;
--moz-animation: xfade 48s 36s infinite;
--ms-animation: xfade 48s 36s infinite;
--o-animation: xfade 48s 36s infinite;
-animation: xfade 48s 36s infinite;
-}
-figure:nth-child(3) {
-   animation: xfade 48s 30s infinite;
-}
-figure:nth-child(4) {
-   animation: xfade 48s 24s infinite;
-}
-figure:nth-child(5) {
-   animation: xfade 48s 18s infinite;
-}
-figure:nth-child(6) {
-   animation: xfade 48s 12s infinite;
-}
-figure:nth-child(7) {
-   animation: xfade 48s 6s infinite;
-}
-figure:nth-child(8) {
-   animation: xfade 48s 0s infinite;
-}
+=======
 @keyframes xfade{
    0%{
       opacity: 1;
@@ -129,6 +118,7 @@ figure:nth-child(8) {
    }
 }
 
+<<<<<<< HEAD
 
 
 
@@ -187,3 +177,64 @@ textarea {
     margin-right: 20%;
     padding-left: 20%;
 }
+=======
+p.title {
+	font-size: 75px;
+	text-align:center;
+}
+
+p.link {
+	font-size: 50px;
+	text-align: center;
+	border-style: solid;
+	border-color: #2f3036;
+}
+
+a: link { color: #2f3036; }
+	a: visited {color: #a1a1a1; }
+	a: hover { color: #00a99a; }
+	a: active { color: #ffffff; }
+	
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 20px solid #2f3036;
+}
+
+.eventslist {
+	clear: both;
+	position: relative;
+	width: 100%;
+}
+.listwrap {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	width: 40%;
+}
+
+.listwrap li {
+	list-style-type: none;
+}
+	
+.border {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00a99a;
+	text-align: center;
+	width: 100%;
+	margin: 5%;
+}
+.border li {
+	list-style-type: none;
+	text-decoration: none;
+}
+h1 {
+	text-align:center;
+}
+>>>>>>> eb320ed9bcae9af6eb4a65307c5d92afa0ae6880
+>>>>>>> 236320e478ef8e8227c29748e2233e19dc328c23
