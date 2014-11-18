@@ -5,10 +5,10 @@ body { color: #2f3036;
 	font-family: AdventPro-Medium;
 	}
 .outside {
-	background-color:#000000;
+	background-color:#ffffff;
 	height:100%;
 	width:100%;
-	position:relative;
+	position:absolute;
 }
 @font-face {
 	font-family: AdventPro-Medium;
@@ -78,6 +78,7 @@ nav li:hover {
 			}
 .musicsection {
 	background-color:#ffffff;
+	position:relative;
 }
 .musiclist {
 	text-align:center;
@@ -88,16 +89,19 @@ nav li:hover {
 .musicplayer {
 	clear:both;
 	float:right;
+	margin-right:15%;
+	margin-top:35%
 }
 
 .slideshow {
 	float:right;
-	position:relative;
-	top:5%;
+	position:absolute;
+	margin-top:10%;
 	width:50%;
 	height:20%;
+	left:50%;
 	overflow:visible;
-	clear:right;
+	clear:right; 
 		}
 .slideshow img {
 	-webkit-box-shadow:
