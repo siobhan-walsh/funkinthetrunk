@@ -74,38 +74,137 @@ nav li:hover {
 	margin-left:10%;
 	margin-top::5%;
 }
+
 .slideshow {
-	background:#fff;
 	float:right;
 	position:relative;
-	margin-top:5%;
-	width:60%;
-	height:60%;
+	top:5%;
+	width:50%;
+	height:20%;
 	overflow:visible;
 		}
-#mask {
-	overflow:hidden;
-	height:inherit;
-}
-.slideshow ul {
-	margin:0;
-	padding:0;
-	position:relative;
-}
-
-.slideshow li {
-	width:60%;
-	height:60%;
+.slideshow figure {
 	position:absolute;
-	list-style: none;
+	opacity:1;
 }
 
-<<<<<<< HEAD
+.slideshow figure:nth-child(1) {
+	-webkit-animation: xfade 40s 35s infinite;
+	-moz-animation: xfade 40s 35s infinite;
+	-o-animation: xfade 40s 35s infinite;
+	animation: xfade 40s 35s infinite;
+}
+.slideshow figure:nth-child(2){
+	-webkit-animation: xfade 40s 30s infinite;
+	-moz-animation: xfade 40s 30s infinite;
+	-o-animation: xfade 40s 30s infinite;
+	animation: xfade 40s 30s infinite;
+}
+.slideshow figure:nth-child(3) {
+	-webkit-animation: xfade 40s 25s infinite;
+	-moz-animation: xfade 40s 25s infinite;
+	-o-animation: xfade 40s 25s infinite;
+	animation: xfade 40s 25s infinite;
+}
+.slideshow figure:nth-child(4) {
+	-webkit-animation: xfade 40s 20s infinite;
+	-moz-animation: xfade 40s 20s infinite;
+	-o-animation: xfade 40s 20s infinite;
+	animation: xfade 40s 20s infinite;
+}
+.slideshow figure:nth-child(5) {
+	-webkit-animation: xfade 40s 15s infinite;
+	-moz-animation: xfade 40s 15s infinite;
+	-o-animation: xfade 40s 15s infinite;
+	animation: xfade 40s 15s infinite;
+}
+.slideshow figure:nth-child(6) {
+	-webkit-animation: xfade 40s 10s infinite;
+	-moz-animation: xfade 40s 10s infinite;
+	-o-animation: xfade 40s 10s infinite;
+	animation: xfade 40s 10s infinite;
+}
+.slideshow figure:nth-child(7) {
+	-webkit-animation: xfade 40s 5s infinite;
+	-moz-animation: xfade 40s 5s infinite;
+	-o-animation: xfade 40s 5s infinite;
+	animation: xfade 40s 5s infinite;
+}
+.slideshow figure:nth-child(8) {
+	-webkit-animation: xfade 40s 0s infinite;
+	-moz-animation: xfade 40s 0s infinite;
+	-o-animation: xfade 40s 0s infinite;
+	animation: xfade 40s 0s infinite;
+}
 
-
-
-
-
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
+@-webkit-keyframes xfade {
+	   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
+@-moz-keyframes xfade {
+	   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
+@-o-keyframes xfade {
+	   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
 h2 {
     color: black;
     text-align: center;
@@ -218,9 +317,4 @@ a: link { color: #2f3036; }
 h1 {
 	text-align:center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> eb320ed9bcae9af6eb4a65307c5d92afa0ae6880
->>>>>>> 236320e478ef8e8227c29748e2233e19dc328c23
->>>>>>> 128a656d2aee45306cefc104d553cc9ba2c2b960
