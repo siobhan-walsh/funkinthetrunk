@@ -2,7 +2,12 @@
 /* CSS Document */
 
 body { color: #2f3036;
+	font-family: AdventPro-Medium;
 	}
+@font-face {
+	font-family: AdventPro-Medium;
+	src: url(fonts/adventpro-medium.ttf);
+}
 .pagewrap {
 	position:relative;
 	width:980px;
@@ -52,6 +57,7 @@ nav li {
 	background: #2f3036;
 	text-decoration: none;
 	border:0;
+	font-family: AdventPro-Medium;
 		}
 nav li:hover {
 	background: #f3f3f3;
