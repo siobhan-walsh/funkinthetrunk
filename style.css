@@ -1,9 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body { color: #ffffff;
+body { color: #000000;
 	font-family: AdventPro-Medium;
+	margin: 0px;
+	padding: 0px;
 	}
+	
 .outside {
 	background-color:#000000;
 	height:100%;
@@ -22,6 +25,7 @@ body { color: #ffffff;
 	margin:auto;
 	background-color:#ffffff;
 }
+
 header img {
 	clear:both;
 	margin-left:10%;
@@ -79,7 +83,7 @@ nav li:hover {
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 			}
-.musicsection {
+.section {
 	background-color:#ffffff;
 	position:relative;
 	clear:both;
