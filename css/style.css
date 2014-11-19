@@ -271,6 +271,9 @@ nav li:hover {
 /*start darren's section */
 
 
+h3 {
+	text-align: center;
+}
 h2 {
     color: black;
     text-align: center;
