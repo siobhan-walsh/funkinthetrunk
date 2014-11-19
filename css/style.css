@@ -20,14 +20,7 @@ body { color: #000000;
 	font-family: AdventPro-Medium;
 	src: url(fonts/adventpro-medium.ttf);
 }
-.pagewrap {
-	position:relative;
-	width:980px;
-	clear:both;
-	float:none;
-	margin:auto;
-	background-color:#ffffff;
-}
+
 
 header img {
 	clear:both;
@@ -101,21 +94,30 @@ nav li:hover {
 	color:black;
 }
 
-.musicwrap {
-	float:right;
-}
-
-
 .slideshow {
-	float:right;
+	/*float:right;
 	position:absolute;
 	margin-top:10%;
 	width:50%;
 	height:20%;
 	left:50%;
 	overflow:visible;
-	clear:right; 
+	clear:right; */
 		}
+.slideshow audio {
+	/*clear:both;
+	float:right;
+	position:absolute;
+	margin-top:60%;*/
+
+}
+
+#audioPlayerThingy {
+
+    background: #223388;
+
+}
+
 .slideshow img {
 	-webkit-box-shadow:
 	0px 0px 0px 2px rgba(0,0,0,0.6),
