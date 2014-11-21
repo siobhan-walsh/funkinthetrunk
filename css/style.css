@@ -5,7 +5,7 @@
 /* this layout should apply to all the pages */	
 
 body { color: #000000;
-	font-family: AdventPro-Medium;
+	font-family: EsqaderoRegular;
 	margin: 0px;
 	padding: 0px;
 	}
@@ -17,8 +17,8 @@ body { color: #000000;
 	clear:both;
 }
 @font-face {
-	font-family: AdventPro-Medium;
-	src: url(fonts/adventpro-medium.ttf);
+	font-family: EsqaderoRegular.tff;
+	src: url(fonts/EsqaderoRegular.ttf);
 }
 
 
@@ -68,7 +68,7 @@ nav li {
 	background: #2f3036;
 	text-decoration: none;
 	border:0;
-	font-family: AdventPro-Medium;
+	font-family: EsqaderoRegular;
 	margin:0;
 		}
 nav li:hover {
@@ -95,20 +95,20 @@ nav li:hover {
 }
 
 .slideshow {
-	/*float:right;
+	float:right;
 	position:absolute;
 	margin-top:10%;
 	width:50%;
 	height:20%;
 	left:50%;
 	overflow:visible;
-	clear:right; */
+	clear:right; 
 		}
 .slideshow audio {
-	/*clear:both;
+	clear:both;
 	float:right;
 	position:absolute;
-	margin-top:60%;*/
+	margin-top:60%;
 
 }
 
