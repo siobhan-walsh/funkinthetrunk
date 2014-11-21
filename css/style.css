@@ -22,7 +22,6 @@ body { color: #000000;
 	src: url(fonts/EsqaderoRegular.ttf)!important;
 }
 
-
 header img {
 	clear:both;
 	margin-left:10%;
@@ -49,7 +48,7 @@ nav a {
 	color:#ffffff;
 	text-decoration:none;
     font-family: helveticalight, sans-serif;
-
+	clear:both;
 	}
 nav	li:hover > a {color:#00a99a;}
 nav ul {
@@ -84,9 +83,12 @@ nav li:hover {
 			}
 .section {
 	background-color:#ffffff;
-	position:relative;
+	position:absolute;
 	clear:both;
-	font-family: EsqaderoRegular.tff;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:100%;
 }
 
 /* start siobhan's section */
@@ -95,9 +97,25 @@ nav li:hover {
 	float:left;
 	margin:10%;
 	color:black;
-	font-family: "EsqaderoRegular";
+	font-family: helveticalight, sans-serif;
 }
 
+#content {
+	width:80%;
+}
+.audioconaitner {
+	width: 550px;
+	background: #8833ff;
+}
+.audiocontainer audio {
+	width: 519px;
+	display: table;
+	margin: 0 auto;
+	float:right;
+}
+.audiocontainer img {
+	display:block;
+}
 .slideshow {
 	float:right;
 	position:absolute;
