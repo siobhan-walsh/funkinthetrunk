@@ -269,7 +269,9 @@ nav li:hover {
 }
 
 /*start darren's section */
-
+img {
+    float: left;
+}
 
 h3 {
 	text-align: center;
@@ -279,11 +281,9 @@ h2 {
     text-align: center;
 	padding-top: 7% 
 }
-p {
+p.info{
 	text-align: center;
-}
-p.small {
-    line-height: 1%;
+    line-height: 1%
 }
 hr {
 	width: 40%
