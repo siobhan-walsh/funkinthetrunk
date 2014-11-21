@@ -337,12 +337,6 @@ textarea {
 	float:left;
 }
 
-.profiles h3 {
-	float:left;
-	clear:right;
-	margin-top:10%;
-}
-
 .profiles2 {
 	float:left;
 	display:block;
@@ -353,12 +347,9 @@ textarea {
 	float:left;
 }
 
-.profiles2 h3 {
-	float:left;
-	clear:right;
-	margin-top:10%;
+hr.test {
+	width: 20%
 }
-
 	
 /*start justine's section */
 
