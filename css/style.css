@@ -391,7 +391,11 @@ p.title {
 	font-size: 75px;
 	text-align:center;
 }
-
+.bookus {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
 p.link {
 	font-size: 50px;
 	text-align: center;
@@ -399,10 +403,10 @@ p.link {
 	border-color: #2f3036;
 }
 
-    a: link { color: #2f3036; }
-	a: visited {color: #a1a1a1; }
-	a: hover { color: #00a99a; }
-	a: active { color: #ffffff; }
+    a:link { color: #2f3036; }
+	a:visited {color: #a1a1a1; }
+	a:hover { color: #00a99a; }
+	a:active { color: #ffffff; }
 	
 .arrow-down {
 	width: 0;
