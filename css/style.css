@@ -5,7 +5,8 @@
 /* this layout should apply to all the pages */	
 
 body { color: #000000;
-	font-family: EsqaderoRegular.tff;
+
+	font-family: HelveticaLight, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	}
@@ -47,7 +48,8 @@ nav {
 nav a {
 	color:#ffffff;
 	text-decoration:none;
-	font-family: EsqaderoRegular.tff;
+    font-family: helveticalight, sans-serif;
+
 	}
 nav	li:hover > a {color:#00a99a;}
 nav ul {
@@ -376,7 +378,7 @@ p.link {
 	border-color: #2f3036;
 }
 
-a: link { color: #2f3036; }
+    a: link { color: #2f3036; }
 	a: visited {color: #a1a1a1; }
 	a: hover { color: #00a99a; }
 	a: active { color: #ffffff; }
