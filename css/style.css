@@ -5,7 +5,8 @@
 /* this layout should apply to all the pages */	
 
 body { color: #000000;
-	font-family: HelveticaLight;
+
+	font-family: HelveticaLight, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	}
@@ -16,11 +17,11 @@ body { color: #000000;
 	width:100%;
 	clear:both;
 }
-/*@font-face {
+@font-face {
 	font-family: EsqaderoRegular.tff!important;
 	src: url(fonts/EsqaderoRegular.ttf)!important;
 }
-*/
+
 
 header img {
 	clear:both;
@@ -47,8 +48,10 @@ nav {
 nav a {
 	color:#ffffff;
 	text-decoration:none;
+    font-family: helveticalight, sans-serif;
+
 	}
-nav	li:hover > a {color:#7EC0FF;}
+nav	li:hover > a {color:#00a99a;}
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -73,7 +76,7 @@ nav li {
 		}
 nav li:hover {
 	background: #f3f3f3;
-	color: #2f3036;
+	color: #00a99a;
 	height: 50px;
 	line-height: 50px;
 	-webkit-box-shadow: 0px 0px;
@@ -83,6 +86,7 @@ nav li:hover {
 	background-color:#ffffff;
 	position:relative;
 	clear:both;
+	font-family: EsqaderoRegular.tff;
 }
 
 /* start siobhan's section */
@@ -91,7 +95,7 @@ nav li:hover {
 	float:left;
 	margin:10%;
 	color:black;
-	font-family: EsqaderoRegular;
+	font-family: "EsqaderoRegular";
 }
 
 .slideshow {
@@ -365,7 +369,7 @@ p.link {
 	border-color: #2f3036;
 }
 
-a: link { color: #2f3036; }
+    a: link { color: #2f3036; }
 	a: visited {color: #a1a1a1; }
 	a: hover { color: #00a99a; }
 	a: active { color: #ffffff; }
@@ -377,7 +381,7 @@ a: link { color: #2f3036; }
 	border-right: 20px solid transparent;
 	margin-left: auto;
 	margin-right: auto;
-	border-top: 20px solid #2f3036;
+	border-top: 20px solid #2f30 36;
 }
 
 .eventslist {
