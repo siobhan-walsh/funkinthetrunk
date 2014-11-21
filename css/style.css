@@ -269,17 +269,13 @@ nav li:hover {
 }
 
 /*start darren's section */
-img {
-    float: left;
-}
-
-h3 {
+h4 {
 	text-align: center;
 }
 h2 {
     color: black;
     text-align: center;
-	padding-top: 7% 
+	padding-top: 5% 
 }
 p.info{
 	text-align: center;
