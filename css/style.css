@@ -101,12 +101,9 @@ nav li:hover {
 .musiclist {
 	float:left;
 	margin:10%;
-	color:black;
-<<<<<<< HEAD
-	font-family: "EsqaderoRegular";
-=======
+	background-color:black;
 	font-family: helveticalight, sans-serif;
->>>>>>> 3f899c38a339e5fc88d3026a127c64bdee19d8ca
+	height:100%;
 }
 
 #content {
@@ -114,7 +111,7 @@ nav li:hover {
 	margin-left:10%;
 	position:relative;
 }
-.audioconaitner {
+.audiocontainer {
 	width: 550px;
 	background: #8833ff;
 }
@@ -123,7 +120,6 @@ nav li:hover {
 	display:block;
 	margin-right:0;
 	float:right;
-	position:absolute;
 }
 .audiocontainer img {
 	display:block;
