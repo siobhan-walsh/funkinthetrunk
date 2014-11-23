@@ -389,9 +389,11 @@ textarea {
 .profiles2 img {
 	float:left;
 }
-
-hr.test {
-	width: 20%
+hr.hr{
+	width: 80%;
+	color: #00CCCC;
+	background-color: #00CCCC;
+	height: 1.5px;
 }
 	
 /*start justine's section */
