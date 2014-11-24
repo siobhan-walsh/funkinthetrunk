@@ -47,7 +47,7 @@ nav {
 	margin-top:0px;
 	color:#ffffff;
 	}
-nav a {
+nav a:link {
 	color:#ffffff;
 	text-decoration:none;
     font-family: helveticalight, sans-serif;
@@ -114,9 +114,9 @@ footer {
 /* start siobhan's section */
 
 .blurb {
-	width:40%;
-	margin-left:30%;
-	margin-right:30%;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
 	text-align:center;
 	font-size:1.25em;
 	font-weight:bold;
@@ -546,11 +546,16 @@ h1 {
 }
 
 .youtube {
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     display: block;
+	clear:both;
+	float:left;
+
 }
 
+.youtube iframe {
 
+	margin-left:30%;
+	margin-right:30%;
+}
 
