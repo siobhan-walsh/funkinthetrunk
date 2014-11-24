@@ -382,6 +382,7 @@ textarea {
 
 .profiles2 {
 	float:left;
+	clear:right;
 	display:block;
 	width:50%;
 }
@@ -393,9 +394,18 @@ hr.hr{
 	width: 80%;
 	color: #00CCCC;
 	background-color: #00CCCC;
-	height: 1.5px;
+	height: 1px;
 }
-	
+p.back{
+    position: relative;
+    left: 20px;
+}
+h3.back{
+	position: relative;
+    left: 290px;
+    color:#00CCCC
+}
+
 /*start justine's section */
 
 p.title {
