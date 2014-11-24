@@ -4,33 +4,69 @@
 <meta charset="UTF-8">
 <title>eventspage</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript">
+
+var slideimages = new Array() // create new array to preload images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "images/drums.jpg" // set image object src property to an image's src, preloading that image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "images/saxophone.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "images/guitar.jpg"
+
+</script>
 </head>
 
 <body>
-<div class="outside">
 <header>
 	<div class="centering">
-	<img src="images/trombonecrop.png" alt="trombone">
+	<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
+
+<script type="text/javascript">
+
+//variable that will increment through the images
+var step=0
+
+function slideit(){
+ //if browser does not support the image object, exit.
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ if (step<2)
+  step++
+ else
+  step=0
+ //call function "slideit()" every 2.5 seconds
+ setTimeout("slideit()",4000)
+}
+
+slideit()
+
+</script>
+
     </div>
 </header>
 <nav>
 	<ul>
-    	<li><a href="funkinthetrunk.html">Home</a></li>
-        <li>About</li>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="music.html">Music</a></li>
         <li><a href="eventspage.html">Events</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
-<div class="section"
-    <h1> December </h1>
-    <div class="eventslist"> 
-        <ul class="listwrap">
-        	<li class="border">What: Funk in the Trunk Christmas Extravaganza <br/> Where: Hotel Vancouver, Robson Street, 3f9 o8p. <br/> When: December 3, 2014. 7:00 PM</li>
-   			<li class="border">What: Venue Christmas Jazz Night <br/> Where: Venue, 123 Granville Street, 2f4 f3l <br/> When: December 7, 2014. 6:00 PM</li> 
+
+    <div class="section">
+    <h1> December </h1> 
+        
+       <img class="border" src="./images/stage2.jpg" alt="note" style="height:200px;width:200px">
+           <p class="text">What: Funk in the Trunk Christmas Extravaganza <br/> Where: Hotel Vancouver, Robson Street, 3f9 o8p. <br/> When: December 3, 2014. 7:00 PM</p>
+        
+        <img class="border" src="./images/stage.jpg" alt="note" style="height:200px;width:200px">
+        <p class="text">What: Venue Christmas Jazz Night </br> Where: Venue, 123 Granville Street, 2o3 f9g. <br/> When: December 14, 2014. 6:00 PM</p>
+    
         </ul>
     </div>
 	</div>
-  </div> 
 </body>
 </html>
