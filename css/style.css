@@ -75,7 +75,6 @@ nav li {
 	background: #2f3036;
 	text-decoration: none;
 	border:0;
-	font-family: EsqaderoRegular;
 	margin:0;
 		}
 nav li:hover {
@@ -96,7 +95,12 @@ nav li:hover {
 	margin-right:10%;
 	height:100%;
 }*/
-
+footer {
+	clear:both;
+	display:block;
+	padding-right:100%;
+	padding-bottom:10%;
+}
 /* start siobhan's section */
 
 .blurb {
@@ -108,57 +112,77 @@ nav li:hover {
 	font-weight:bold;
 	line-height:150%;
 	}
-	
+.musicsection {
+	position:relative;
+	max-width:1000px;
+	margin-left:10%;
+	margin-right:10%;
+}
 .musiclist {
+	color:#000000;
 	float:left;
-	width:40%;
-	margin:10%;
+	width:30%;
 	font-family: helveticalight, sans-serif;
-	margin-top:0%;
-	padding-left:10%;
 	clear:none;
 }
-.musiclist h1 {
-	text-align:justify;
+
+
+.musiclist li {
+	text-decoration:none;
+	list-style-type:none;
+}
+#content {
+	width:70%;
+	float:right;
+	position:relative;
+	margin:0%;
+	height:100%;
+
 }
 
-#content {
-	width:40%;
-	margin-left:10%;
-}
-.audiocontainer {
-	width: 550px;
+/*.audiocontainer {
+	width:100%;
 	float:right;
 	margin-top:0%;
 }
 .audiocontainer audio {
-	width: 519px;
+	max-width:100%;
 	display:block;
-	margin-right:0;
 	float:right;
 	margin-top:0%;
+
 }
+/*
 .audiocontainer img {
 	display:block;
 }
 .slideshow {
 	float:right;
-	position:absolute;
 	margin-top:0%;
 	height:80%;
-	margin-left:10%;
+	margin-left:0;
 	overflow:visible;
 	clear:right; 
 		}
-.slideshow audio {
+/*.slideshow audio {
 	clear:both;
 	float:right;
 	position:absolute;
 	margin-top:5%;
+}*/
+
+.imgsize {
+	width:100%;
+	margin-left:0%;
 }
-
-
-.slideshow img {
+.imgsize img {
+	max-width:100%;
+}
+.imgsize audio {
+	max-width:600px;
+	margin-left:20%;
+}
+.imgsize img {
 	-webkit-box-shadow:
 	0px 0px 0px 2px rgba(0,0,0,0.6),
 	0px 0px 0px 14px #fff,
@@ -183,12 +207,13 @@ nav li:hover {
 	0px 0px 0px 18px rgba(0,0,0,0.2),
 	6px 6px 8px 17px #555;
 }
-/*.slideshow figure {
+.slideshow figure {
 	position:absolute;
 	opacity:1;
 	margin:10%;
 	margin-right:30%;
-}*/
+}
+
 
 .slideshow figure:nth-child(1) {
 	-webkit-animation: xfade 40s 35s infinite;
