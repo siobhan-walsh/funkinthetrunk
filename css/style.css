@@ -112,7 +112,7 @@ footer {
 	font-weight:bold;
 	line-height:150%;
 	}
-.musicsection {
+.middlesection {
 	position:relative;
 	max-width:1000px;
 	margin-left:10%;
@@ -121,21 +121,25 @@ footer {
 .musiclist {
 	color:#000000;
 	float:left;
-	width:30%;
+	width:50%;
 	font-family: helveticalight, sans-serif;
 	clear:none;
+	font-size:1em;
 }
 
-
+.musiclist h1 {
+	text-align:left;
+	margin:5%;
+}
 .musiclist li {
 	text-decoration:none;
 	list-style-type:none;
 }
 #content {
-	width:70%;
+	width:50%;
 	float:right;
 	position:relative;
-	margin:0%;
+	margin-top:2%;
 	height:100%;
 
 }
@@ -170,18 +174,18 @@ footer {
 	position:absolute;
 	margin-top:5%;
 }*/
-
+.soundplayer {
+	max-width:100%;
+	margin:4%;
+}
 .imgsize {
 	width:100%;
 	margin-left:0%;
 }
 .imgsize img {
-	max-width:100%;
+	max-width:80%;
 }
-.imgsize audio {
-	max-width:600px;
-	margin-left:20%;
-}
+
 .imgsize img {
 	-webkit-box-shadow:
 	0px 0px 0px 2px rgba(0,0,0,0.6),
@@ -464,17 +468,48 @@ p.link {
 	border-top: 20px solid #2f3036;
 }
 
-	
+.imageside {
+	width:25%;
+	float:left;
+	clear:left;
+	margin-left:5%;
+	margin-top:5%;
+
+}
+.text {
+ 	float:right;
+	width:65%;    
+	clear:right;
+	margin-bottom:5%;
+	margin-top:10%;
+	margin-left:5%;
+}
+.imageside2 {
+	width:25%;
+	float:left;
+	clear:left;
+	padding-left:5%;
+	padding-top:5%;
+
+}
+.text2 {
+	float:right;
+	Width:65%;
+	clear:right;
+	padding-bottom:5%;
+	padding-top:10%;
+	padding-left:5%;
+
+}
 .border {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #00a99a;
 	text-align: center;
-	width: 50%;
-	margin: 5%;
 }
 
 h1 {
+	margin:2px;
 	text-align:center;
     color: #2f3036;
     text-decoration: underline;
@@ -487,12 +522,5 @@ h1 {
     display: block;
 }
 
-.text {
-    margin-left: 40%;
-    
-    
-}
-img {
-   margin-left: auto;
-}
+
 
