@@ -427,40 +427,22 @@ p.link {
 	border-left: 20px solid;
 	border-right: 20px solid;
 	border-top: 20px solid #2f3036;
-    float: left;
-    clear: left;
 }
 
-.eventslist {
-	clear: both;
-	position: relative;
-	width: 100%;
-}
-.listwrap {
-	position: absolute;
-	left: 25%;
-	right: 25%;
-	width: 40%;
-}
-
-.listwrap li {
-	list-style-type: none;
-}
 	
 .border {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #00a99a;
 	text-align: center;
-	width: 100%;
+	width: 50%;
 	margin: 5%;
 }
-.border li {
-	list-style-type: none;
-	text-decoration: none;
-}
+
 h1 {
 	text-align:center;
+    color: #2f3036;
+    text-decoration: underline;
 }
 
 .youtube {
@@ -468,5 +450,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.text {
+    margin-left: 40%;
+    
+    
+}
+img {
+   margin-left: auto;
 }
 
