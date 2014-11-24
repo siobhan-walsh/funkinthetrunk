@@ -4,7 +4,7 @@
 
 /* this layout should apply to all the pages */	
 
-body { color: #000000;
+body {
 	font-family: HelveticaLight, sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -45,6 +45,7 @@ nav {
 	padding:0%;
 	margin:0%;
 	margin-top:0px;
+	color:#ffffff;
 	}
 nav a {
 	color:#ffffff;
@@ -54,7 +55,10 @@ nav a {
 	}
 nav a:visited {
 	color:#ffffff;
-	}
+}
+nav a:hover {
+	color:#00a99a;
+}
 nav	li:hover > a {color:#00a99a;}
 nav ul {
 	list-style-type: none;
@@ -71,7 +75,7 @@ nav li {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	color: #fff;
+	color: #00a99a;
 	background: #2f3036;
 	text-decoration: none;
 	border:0;
@@ -85,7 +89,13 @@ nav li:hover {
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 			}
-
+.middlesection {
+	position:relative;
+	max-width:1000px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:50px;
+}
 /*.section {
 	background-color:#ffffff;
 	position:absolute;
@@ -112,12 +122,7 @@ footer {
 	font-weight:bold;
 	line-height:150%;
 	}
-.middlesection {
-	position:relative;
-	max-width:1000px;
-	margin-left:10%;
-	margin-right:10%;
-}
+
 .musiclist {
 	color:#000000;
 	float:left;
@@ -125,6 +130,7 @@ footer {
 	font-family: helveticalight, sans-serif;
 	clear:none;
 	font-size:1em;
+	margin-top:4%;
 }
 
 .musiclist h1 {
@@ -183,7 +189,7 @@ footer {
 	margin-left:0%;
 }
 .imgsize img {
-	max-width:80%;
+	max-width:100%;
 }
 
 .imgsize img {
