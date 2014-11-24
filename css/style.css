@@ -414,32 +414,49 @@ textarea {
 
 .profiles {
 	float:left;
-	clear:both;
-	display:block;
-	width:50%
-}
-
-.profiles img {
-	float:left;
-}
-
-.profiles2 {
-	float:left;
-	clear:right;
 	display:block;
 	width:50%;
 }
 
+.profileimage {
+	width:20%;
+}
+.profiles img {
+	float:left;
+	max-width:100%;
+}
+
+.profiles2 {
+	float:left;
+	display:block;
+	width:50%;
+}
+
+
 .profiles2 img {
 	float:left;
+	max-width:100%;
 }
-hr.hr{
-	width: 80%;
+/*hr.hr{
+	width: 40%;
 	color: #00CCCC;
 	background-color: #00CCCC;
 	height: 1px;
+}*/
+.back {
+	width:60%;
+	float:right;
+	padding-right:10%;
+	padding-left:10%;
 }
-p.back{
+.back hr {
+	width:100%;
+	color: #00CCCC;
+}
+.back h3 {
+	    color:#00CCCC
+}
+/*p.back{
     position: relative;
     left: 20px;
 }
@@ -447,7 +464,7 @@ h3.back{
 	position: relative;
     left: 290px;
     color:#00CCCC
-}
+}*/
 
 /*start justine's section */
 
