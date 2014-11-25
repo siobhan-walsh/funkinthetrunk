@@ -17,7 +17,6 @@ body {
 
 .pagewrap {
 	background-color:#ffffff;
-	height:90%;
 	width:80%;
 	margin-left:9%;
 	margin-right:9%;
@@ -163,15 +162,13 @@ footer {
 .audiocontainer img {
 	display:block;
 }*/
-.song:hover .audio1 {
-	display:block;
+.song div:hover .audio1 {
+	opacity:1;
 }
 .audio1 {
-	display:none;
+	opacity:1;
 }
-#audio1:hover {
-	display:block;
-}
+
 .slideshow {
 	float:right;
 	margin-top:4%;
