@@ -163,6 +163,15 @@ footer {
 .audiocontainer img {
 	display:block;
 }*/
+.song:hover .audio1 {
+	display:block;
+}
+.audio1 {
+	display:none;
+}
+#audio1:hover {
+	display:block;
+}
 .slideshow {
 	float:right;
 	margin-top:4%;
