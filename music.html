@@ -24,7 +24,7 @@ slideimages[2].src = "images/guitar.jpg"
 <header>
 	<div class="centering">
 	<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
-
+    </div>
 <script type="text/javascript">
 
 //variable that will increment through the images
@@ -47,7 +47,7 @@ slideit()
 
 </script>
 
-    </div>
+
 </header>
 
 <nav>
@@ -88,38 +88,43 @@ slideit()
 </ul>
 </div>
 
-<div id="content">
-<div class="imgsize">            
-  		<figure>
-        <img src="images/parker_smile.jpg" id="slide2" alt="Funk in the Trunk" >
-        </figure>    
-</div>
-
 
 <div class="slideshow">
-     <div class="audiocontainer">
+<script type="text/javascript">
 
-<div class="imgsize">                      
-      <figure>
-             <img src="images/Nicky_dylan.jpg" id="slide2" alt="Funk in the Trunk" >
-        </figure>  
-         </div>
-              <div class="imgsize">   
-        <figure>
-               <img src="images/nicky_playing.jpg" id="slide2" alt="Funk in the Trunk" >
-         </figure>   
-          </div>
-               <div class="imgsize">   
-         <figure>
-                <img src="images/dylan_smile.jpg" id="slide2" alt="Funk in the Trunk" >
-         </figure>  
-         </div>
+var slideimages2 = new Array() // create new array to preload images
+slideimages2[0] = new Image() // create new instance of image object
+slideimages2[0].src = "images/nicky_dylan.jpg" // set image object src property to an image's src, preloading that image in the process
+slideimages2[1] = new Image()
+slideimages2[1].src = "images/dylan_smile.jpg"
+slideimages2[2] = new Image()
+slideimages2[2].src = "images/nicky_playing.jpg"
 
-             
-             
+</script>
+<script type="text/javascript">
+
+//variable that will increment through the images
+var stepp =0
+
+function slideit2(){
+ //if browser does not support the image object, exit.
+ if (!document.images)
+  return
+ document.getElementById('slide2').src = slideimages2[step].src
+ if (step<2)
+  step++
+ else
+  step=0
+ //call function "slideit()" every 2.5 seconds
+ setTimeout("slideit()",4000)
+}
+ </script>                     
+
+             <img src="images/Nicky_dylan.jpg" alt="Funk in the Trunk" id="slide2">       
+ </div>    
 <br>
 <div class="soundplayer">
-<iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/60773932&amp;color=00a99a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%"  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/60773932&amp;color=00a99a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 </div>
 
@@ -129,17 +134,17 @@ slideit()
     <source src="music/I'll_Take_Les.mp3" type="audio/mpeg">
     <source src="music/Cold_Duck_Time.mp3" type="audio/mpeg">    
 </audio>-->
-</div>      
-</div>       
-
-</section>
+    
+   
+</div>
+</div>
 
 <footer>
 
 
 
 </footer>
-</div>
+
 </div>
 </body>
 </html>
