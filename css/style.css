@@ -54,6 +54,14 @@ nav {
 	margin-top:0px;
 	color:#ffffff;
 	}
+	
+nav img {
+	max-height:80%;
+	background-color:#000000;
+	float:left;
+	margin-left:20%;
+	max-width:40%;
+}
 nav a:link {
 	color:#ffffff;
 	text-decoration:none;
@@ -81,11 +89,12 @@ nav li {
 	width:20%;
 	height: 50px;
 	text-align: center;
-	line-height: 50px;
+	line-height:50px;
 	background: #2f3036;
 	text-decoration: none;
 	border:0;
 	margin:0;
+
 		}
 
 nav li:hover {
@@ -96,6 +105,9 @@ nav li:hover {
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 			}
+nav	li:hover > img {
+	opacity:0;
+}
 .middlesection {
 	position:relative;
 	max-width:1000px;
@@ -166,11 +178,19 @@ footer {
 .audiocontainer img {
 	display:block;
 }*/
-.song div:hover .audio1 {
-	opacity:1;
+
+.song li > audio {
+	  visibility:hidden;
+  opacity:0;
+  transition:visibility 0s linear 0.8s,opacity 0.8s linear;
+
 }
-.audio1 {
-	opacity:1;
+
+
+.song li:hover > audio {
+visibility:visible;
+  opacity:1;
+  transition-delay:0s;
 }
 
 .slideshow {
