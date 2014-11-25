@@ -97,7 +97,8 @@ nav li:hover {
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:50px;
-
+	background-color:#0042FB;
+	max-height:100%;
 }
 
 footer {
@@ -315,6 +316,7 @@ p.title {
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
+	background-color:#00F947;
 }
 p.link {
 	font-size: 50px;
@@ -397,12 +399,16 @@ h1 {
     display: block;
 	clear:both;
 	float:left;
-
+	background-color:#EE0D10;
+	padding-bottom:50%;
+	position:relative;
 }
 
 .youtube iframe {
-
-	margin-left:30%;
-	margin-right:30%;
+	height:100%;
+	margin-left:20%;
+	margin-right:20%;
+	position:absolute;
+	width:60%;
 }
 
