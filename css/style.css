@@ -22,6 +22,7 @@ body {
 	margin-right:9%;
 	border:2%;
 	border-color:#000000;
+	height:100%;
 }
 .centering {
 	width:80%;
@@ -106,22 +107,14 @@ nav li:hover {
 	margin-top:50px;
 
 }
-/*.section {
-	background-color:#ffffff;
-	position:absolute;
-	clear:both;
-	width:80%;
-	margin-left:10%;
-	margin-right:10%;
-	height:100%;
-}*/
+
 footer {
 	clear:both;
 	display:block;
 	padding-right:100%;
 	padding-bottom:10%;
 }
-/* start siobhan's section */
+/* start music page section */
 
 .blurb {
 	width:50%;
@@ -175,7 +168,7 @@ footer {
 /*
 .audiocontainer img {
 	display:block;
-}
+}*/
 .slideshow {
 	float:right;
 	margin-top:0%;
