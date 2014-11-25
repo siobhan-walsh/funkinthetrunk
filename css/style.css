@@ -6,14 +6,23 @@
 
 body {
 	font-family: HelveticaLight, sans-serif;
-	margin: 0px;
-	padding: 0px;
+	background: url(../images/blackbackground.jpg);
 	}
 
 /*@font-face {
 	font-family: EsqaderoRegular.tff!important;
 	src: url(fonts/EsqaderoRegular.ttf)!important;
 }*/
+
+.pagewrap {
+	background-color:#ffffff;
+	height:90%;
+	width:80%;
+	margin-left:9%;
+	margin-right:9%;
+	border:2%;
+	border-color:#000000;
+}
 .centering {
 	width:80%;
 	margin-left:10%;
@@ -95,6 +104,7 @@ nav li:hover {
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:50px;
+
 }
 /*.section {
 	background-color:#ffffff;
@@ -506,6 +516,9 @@ p.link {
 	margin-top:5%;
 
 }
+.imageside img {
+	max-width:100%;
+}
 .text {
  	float:right;
 	width:65%;    
@@ -522,6 +535,9 @@ p.link {
 	padding-left:5%;
 	padding-top:5%;
 
+}
+.imageside2 img {
+	max-width:100%;
 }
 .text2 {
 	float:right;
