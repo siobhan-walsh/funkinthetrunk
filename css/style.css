@@ -4,15 +4,15 @@
 
 /* this layout should apply to all the pages */	
 html {
-		background: url(../images/blue3.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(../images/blue3.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
+
 body {
 	font-family: HelveticaLight, sans-serif;
-
 	}
 
 .pagewrap {
@@ -26,15 +26,14 @@ body {
 	max-width:1200px;
 	box-shadow: 0 0 15px black;
 	margin-bottom:10%;
-
-
-
 }
+
 .centering {
 	width:80%;
 	margin-left:10%;
 	margin-right:10%;
 }
+
 .centering img {
 	max-width:100%;
 	align-content:center;
@@ -62,19 +61,24 @@ nav img {
 	margin-left:20%;
 	max-width:40%;
 }
+
 nav a:link {
 	color:#ffffff;
 	text-decoration:none;
     font-family: helveticalight, sans-serif;
 	clear:both;
 	}
+	
 nav a:visited {
 	color:#ffffff;
 }
+
 nav a:hover {
 	color:#00a99a;
 }
+
 nav	li:hover > a {color:#00a99a;}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -83,6 +87,7 @@ nav ul {
 	clear: both;
 	border: 0;
 		}
+		
 nav li {
 	display: inline-block;
 	float: left;
@@ -94,7 +99,6 @@ nav li {
 	text-decoration: none;
 	border:0;
 	margin:0;
-
 		}
 
 nav li:hover {
@@ -105,9 +109,11 @@ nav li:hover {
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 			}
+			
 nav	li:hover > img {
 	opacity:0;
 }
+
 .middlesection {
 	position:relative;
 	max-width:1000px;
@@ -149,17 +155,17 @@ footer {
 	text-align:left;
 	margin:5%;
 }
+
 .musiclist li {
 	text-decoration:none;
 	list-style-type:none;
 }
+
 #content {
 	width:50%;
 	float:right;
-
 	margin-top:2%;
 	height:100%;
-
 }
 
 /*.audiocontainer {
@@ -180,17 +186,16 @@ footer {
 }*/
 
 .song li > audio {
-	  visibility:hidden;
-  opacity:0;
-  transition:visibility 0s linear 0.8s,opacity 0.8s linear;
-
+	visibility:hidden;
+ 	opacity:0;
+	transition:visibility 0s linear 0.8s,opacity 0.8s linear;
 }
 
 
 .song li:hover > audio {
-visibility:visible;
-  opacity:1;
-  transition-delay:0s;
+	visibility:visible;
+	opacity:1;
+	transition-delay:0s;
 }
 
 .slideshow {
@@ -201,6 +206,7 @@ visibility:visible;
 	width:60%;
 	margin-bottom:4%;
 }
+
 .slideshow img {
 	max-width:100%; 
 }
@@ -216,18 +222,22 @@ visibility:visible;
 h4 {
 	text-align: center;
 }
+
 h2 {
     color: black;
     text-align: center;
 	padding-top: 5% 
 }
+
 p.info{
 	text-align: center;
     line-height: 1%
 }
+
 hr {
 	width: 40%
 }
+
 #form-div {
   background-color:#808080;
   width:50%;
@@ -248,6 +258,7 @@ hr {
   margin-left: -260px;
   margin-bottom:50px 
 }*/
+
 .feedback-input {
   
   font-size: 18px;
