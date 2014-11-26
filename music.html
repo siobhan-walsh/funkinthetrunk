@@ -1,163 +1,160 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Our Music</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="icon" href="images/favicon.png" type="image/png">
+	<meta charset="UTF-8">
+	<title>Our Music</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
 
-<script type="text/javascript">
+	<script type="text/javascript">
 
-var slideimages = new Array() // create new array to preload images
-slideimages[0] = new Image() // create new instance of image object
-slideimages[0].src = "images/banner1sax.jpg" // set image object src property to an image's src, preloading that image in the process
-slideimages[1] = new Image()
-slideimages[1].src = "images/banner2drums.jpg"
-slideimages[2] = new Image()
-slideimages[2].src = "images/banner3guitar.jpg"
+		var slideimages = new Array() // create new array to preload images
+		slideimages[0] = new Image() // create new instance of image object
+		slideimages[0].src = "images/banner1sax.jpg" // set image object src property to an image's src, preloading that image in the process
+		slideimages[1] = new Image()
+		slideimages[1].src = "images/banner2drums.jpg"
+		slideimages[2] = new Image()
+		slideimages[2].src = "images/banner3guitar.jpg"
 
-</script>
+	</script>
 </head>
 
 <body>
-<div class="pagewrap">
-<header>
-	<div class="centering">
-	<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
-    </div>
-<script type="text/javascript">
+	<div class="pagewrap">
+		<header>
+			<div class="centering">
+				<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
+		    </div>
+			<script type="text/javascript">
 
-//variable that will increment through the images
-var step=0
+				//variable that will increment through the images
+				var step=0
 
-function slideit(){
- //if browser does not support the image object, exit.
- if (!document.images)
-  return
- document.getElementById('slide').src = slideimages[step].src
- if (step<2)
-  step++
- else
-  step=0
- //call function "slideit()" every 2.5 seconds
- setTimeout("slideit()",4000)
-}
+				function slideit(){
+				 //if browser does not support the image object, exit.
+				 if (!document.images)
+				  return
+				 document.getElementById('slide').src = slideimages[step].src
+				 if (step<2)
+				  step++
+				 else
+			  step=0
+				 //call function "slideit()" every 2.5 seconds
+				 setTimeout("slideit()",4000)
+				}
 
-slideit()
+				slideit()
 
-</script>
+			</script>
+
+		</header>
+
+		<nav>
+
+			<ul>
+
+    			<a href="index.html"><li>Home</li></a>
+	
+      		  	<a href="about.html"><li>About</li></a>
+
+        		<li><span style="color:#00a99a;">Music</span></li>
+
+        		<a href="events.html"><li>Events</li></a>
+
+        		<a href="contact.html"><li>Contact Us</li></a>
+
+    		</ul>
+
+		</nav>
+
+		<div class="middlesection">
+
+			<h2> Our Music </h2>
+			<hr/>
+			<p class="blurb">We have a passion for music and play a combination of funk, jazz, latin, and swing.</p>
 
 
-</header>
+			<div class="musiclist">
 
-<nav>
+				<h2>Set List:</h2>
+				<hr/>
 
-	<ul>
-
-    	<a href="index.html"><li>Home</li></a>
-
-        <a href="about.html"><li>About</li></a>
-
-        <li><span style="color:#00a99a;">Music</span></li>
-
-        <a href="events.html"><li>Events</li></a>
-
-        <a href="contact.html"><li>Contact Us</li></a>
-
-    </ul>
-
-</nav>
-
-<div class="middlesection">
-
-<h2> Our Music </h2>
-<hr/>
-<p class="blurb">We have a passion for music and play a combination of funk, jazz, latin, and swing.</p>
-
-<!--<div class="musicsection">-->
-<div class="musiclist">
-
-<h1>Set List:</h1>
-
- <div class="song">
+					<div class="song">
  
- <ul>
- <li><span style="color:#00a99a;"><strong>I'll Take Les</strong>- Jon Schofield</span><br><br>
-<audio controls>
-        Audio not supported in your browser.
-    <source src="music/I'll_Take_Les.mp3" type="audio/mpeg">
-    <source src="music/Cold_Duck_Time.mp3" type="audio/mpeg">    
-</audio></li><br>
+						<ul>
+							 <li><span style="color:#00a99a;"><strong>I'll Take Les</strong>- Jon Schofield</span><br><br>
+								<audio controls>
+  							  		Audio not supported in your browser.
+   									<source src="music/I'll_Take_Les.mp3" type="audio/mpeg">
+    								<source src="music/Cold_Duck_Time.mp3" type="audio/mpeg">    
+								</audio>
+							</li><br>
  
-<li><span style="color:#00a99a;"><strong>Cold Duck Time</strong>- Eddie Harris</span><br><br>
+							<li><span style="color:#00a99a;"><strong>Cold Duck Time</strong>- Eddie Harris</span><br><br>
 
-<audio id="audio2" controls>
-        Audio not supported in your browser.
-    <source src="music/I'll_Take_Les.mp3" type="audio/mpeg">
-    <source src="music/Cold_Duck_Time.mp3" type="audio/mpeg">    
-</audio></li><br>
+								<audio id="audio2" controls>
+        							Audio not supported in your browser.
+    								<source src="music/I'll_Take_Les.mp3" type="audio/mpeg">
+    								<source src="music/Cold_Duck_Time.mp3" type="audio/mpeg">    
+								</audio></li><br>
    
-<li><strong>Pick up the Pieces</strong>- The Average White Band</li><br><br>
-<li><strong>Butterfly</strong>- Herbie Hancock</li><br><br><br>
-<li><strong>The Chicken</strong>- Jaco Pastorius</li><br><br><br>
-<li><strong>Afro Blue</strong>- Mongo Santamaria</li> <br><br><br>
-</ul>
-</div>  
+							<li><strong>Pick up the Pieces</strong>- The Average White Band</li><br><br>
+							<li><strong>Butterfly</strong>- Herbie Hancock</li><br><br><br>
+							<li><strong>The Chicken</strong>- Jaco Pastorius</li><br><br><br>
+							<li><strong>Afro Blue</strong>- Mongo Santamaria</li> <br><br><br>
+						</ul>
+					</div>  
 
-</div>
+			</div>
 
 
-<div class="slideshow">
-<script type="text/javascript">
+			<div class="slideshow">
+				<script type="text/javascript">
 
-var slideimages2 = new Array() // create new array to preload images
-slideimages2[0] = new Image() // create new instance of image object
-slideimages2[0].src = "images/nicky_dylan.jpg" // set image object src property to an image's src, preloading that image in the process
-slideimages2[1] = new Image()
-slideimages2[1].src = "images/dylan_smile.jpg"
-slideimages2[2] = new Image()
-slideimages2[2].src = "images/nicky_playing.jpg"
+					var slideimages2 = new Array() // create new array to preload images
+					slideimages2[0] = new Image() // create new instance of image object
+					slideimages2[0].src = "images/nicky_dylan.jpg" // set image object src property to an image's src, preloading that image in the process
+					slideimages2[1] = new Image()
+					slideimages2[1].src = "images/dylan_smile.jpg"
+					slideimages2[2] = new Image()
+					slideimages2[2].src = "images/nicky_playing.jpg"
 
-</script>
-<script type="text/javascript">
+				</script>
+				<script type="text/javascript">
 
-//variable that will increment through the images
-var stepp =0
+					//variable that will increment through the images
+					var stepp =0
 
-function slideit2(){
- //if browser does not support the image object, exit.
- if (!document.images)
-  return
- document.getElementById('slide2').src = slideimages2[step].src
- if (step<2)
-  step++
- else
-  step=0
- //call function "slideit()" every 2.5 seconds
- setTimeout("slideit()",4000)
-}
- </script>                     
+					function slideit2(){
+					 //if browser does not support the image object, exit.
+					 if (!document.images)
+					  return
+					 document.getElementById('slide2').src = slideimages2[step].src
+					 if (step<2)
+					  step++
+					 else
+					  step=0
+					 //call function "slideit()" every 2.5 seconds
+					 setTimeout("slideit()",4000)
+					}
+ 				</script>                     
 
-             <img src="images/Nicky_dylan.jpg" alt="Funk in the Trunk" id="slide2">       
- </div>    
-<br><!--
-<div class="soundplayer">
-<iframe width="100%"  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/60773932&amp;color=00a99a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+             	<img src="images/Nicky_dylan.jpg" alt="Funk in the Trunk" id="slide2">       
+ 			</div>    
+			<br>
+			
+			<!--
+			<div class="soundplayer">
+				<iframe width="100%"  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/60773932&amp;color=00a99a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-</div>-->
+			</div>-->
     
+		</div>
 
 
+	<footer>
 
-</div>
-
-
-<footer>
-
-
-
-</footer>
-</div>
-</div>
+	</footer>
+	</div>
 </body>
 </html>
