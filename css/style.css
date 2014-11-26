@@ -360,12 +360,14 @@ p.link {
 	a:hover { color: #00a99a; }
 	a:active { color: #ffffff; }
 	
-.arrow {
+.arrow-down {
 	width: 0; 
 	height: 0; 
-	border-left: 20px solid;
-	border-right: 20px solid;
-	border-top: 20px solid #2f3036;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #00a99a;
+    margin: auto;
+    margin-top: 5%;
 }
 
 /*start events section */
