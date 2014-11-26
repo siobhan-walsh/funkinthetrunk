@@ -16,7 +16,7 @@
 		slideimages[2] = new Image()
 		slideimages[2].src = "images/banner3guitar.jpg"
 
-	</script>
+	</script> 
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 			<div class="centering">
 				<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
 		    </div>
-			<script type="text/javascript">
+		<script type="text/javascript">
 
 				//variable that will increment through the images
 				var step=0
@@ -109,37 +109,12 @@
 
 
 			<div class="slideshow">
-				<script type="text/javascript">
-
-					var slideimages2 = new Array() // create new array to preload images
-					slideimages2[0] = new Image() // create new instance of image object
-					slideimages2[0].src = "images/nicky_dylan.jpg" // set image object src property to an image's src, preloading that image in the process
-					slideimages2[1] = new Image()
-					slideimages2[1].src = "images/dylan_smile.jpg"
-					slideimages2[2] = new Image()
-					slideimages2[2].src = "images/nicky_playing.jpg"
-
-				</script>
-				<script type="text/javascript">
-
-					//variable that will increment through the images
-					var stepp =0
-
-					function slideit2(){
-					 //if browser does not support the image object, exit.
-					 if (!document.images)
-					  return
-					 document.getElementById('slide2').src = slideimages2[step].src
-					 if (step<2)
-					  step++
-					 else
-					  step=0
-					 //call function "slideit()" every 2.5 seconds
-					 setTimeout("slideit()",4000)
-					}
- 				</script>                     
-
-             	<img src="images/Nicky_dylan.jpg" alt="Funk in the Trunk" id="slide2">       
+                   
+				<div class="slidecontainer">
+             		<img class="photo" src="images/nicky_dylan.jpg" alt="Funk in the Trunk">
+                    <img class="photo" src="images/dylan_smile.jpg" alt="Funk in the Trunk"> 
+                    <img class="photo" src="images/nicky_dylan.jpg" alt="Funk in the Trunk">    
+                </div>    
  			</div>    
 			<br>
 			
