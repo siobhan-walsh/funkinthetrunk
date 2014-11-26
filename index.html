@@ -4,100 +4,115 @@
 
 <head>
 
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<title>Funk in the Trunk</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	<script type="text/javascript">
 
-<title>Funk in the Trunk</title>
+		var slideimages = new Array() // create new array to preload images
+		slideimages[0] = new Image() // create new instance of image object
+		slideimages[0].src = "images/banner1sax.jpg" // set image object src property to an image's src, preloading that image in the process
+		slideimages[1] = new Image()
+		slideimages[1].src = "images/banner2drums.jpg"
+		slideimages[2] = new Image()
+		slideimages[2].src = "images/banner3guitar.jpg"
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="icon" href="images/favicon.png" type="image/png">
-<script type="text/javascript">
-
-var slideimages = new Array() // create new array to preload images
-slideimages[0] = new Image() // create new instance of image object
-slideimages[0].src = "images/banner1sax.jpg" // set image object src property to an image's src, preloading that image in the process
-slideimages[1] = new Image()
-slideimages[1].src = "images/banner2drums.jpg"
-slideimages[2] = new Image()
-slideimages[2].src = "images/banner3guitar.jpg"
-
-</script>
+	</script>
 </head>
 
 <body>
-<div class="pagewrap">
-<header>
-	<div class="centering">
-	<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
+	<div class="pagewrap">
+		<header>
+			<div class="centering">
+				<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
 
-<script type="text/javascript">
+				<script type="text/javascript">
 
-//variable that will increment through the images
-var step=0
+					//variable that will increment through the images
+					var step=0
 
-function slideit(){
- //if browser does not support the image object, exit.
- if (!document.images)
-  return
- document.getElementById('slide').src = slideimages[step].src
- if (step<2)
-  step++
- else
-  step=0
- //call function "slideit()" every 2.5 seconds
- setTimeout("slideit()",4000)
-}
+					function slideit(){
+					 //if browser does not support the image object, exit.
+					 if (!document.images)
+					  return
+ 					document.getElementById('slide').src = slideimages[step].src
+					 if (step<2)
+					  step++
+						 else
+ 					 step=0
+					 //call function "slideit()" every 2.5 seconds
+ 					setTimeout("slideit()",4000)
+					}
 
-slideit()
+				slideit()
 
-</script>
+				</script>
 
-    </div>
-</header>
+   			 </div>
+			</header>
 
-<nav>
+		<nav>
 
-	<ul>
+			<ul>
 
-    	<li><img src="images/homeicon.jpg" alt="home"><span style="color:#00a99a;">Home</span></li>
+    			<li><img src="images/homeicon.jpg" alt="home"><span style="color:#00a99a;">Home</span></li>
 
-        <a href="about.html"><li>About</li></a>
+       			<a href="about.html"><li>About</li></a>
 
-        <a href="music.html"><li>Music</li></a>
+        		<a href="music.html"><li>Music</li></a>
 
-        <a href="events.html"><li>Events</li></a>
+       			<a href="events.html"><li>Events</li></a>
 
-        <a href="contact.html"><li>Contact Us</li></a>
+        		<a href="contact.html"><li>Contact Us</li></a>
 
-    </ul>
+   			</ul>
 
-</nav>
-<div class="middlesection">
-    <div class="bookus">
+		</nav>
+		
+		<div class="middlesection">
+    		<div class="bookus">
 
+<<<<<<< HEAD
 	<p class="title"> FUNK IN THE TRUNK </p>
         
         <div class="arrow-down"></div>
+=======
+				<p class="title"> FUNK IN THE TRUNK </p>
+>>>>>>> f598ec936e971ef831603ff3de72356ce14cefe6
 
-    <p class="link"> 
+   				 <p class="link"> 
 
-    	<a href="contact.html/">BOOK US TODAY</a>
+    				<a href="contact.html/">BOOK US TODAY</a>
 
-    </p>
+  				  </p>
 
-    </div>
+  			</div>
 
+<<<<<<< HEAD
     <div class="youtube">
+=======
+    	<div class="arrow-down"></div>
 
-    <iframe	height="100%"
+   		 <div class="youtube">
+>>>>>>> f598ec936e971ef831603ff3de72356ce14cefe6
 
-src="http://www.youtube.com/embed/XGSy3_Czz8k" scrolling="auto">
+   			 <iframe	height="100%"
 
-</iframe>
+				src="http://www.youtube.com/embed/XGSy3_Czz8k" scrolling="auto">
 
-    </div>
+			</iframe>
+
+    	</div>
     
+<<<<<<< HEAD
 </div>
 <footer></footer>
+=======
+   			<div class="arrow-down"></div>
+
+		<footer></footer>
+>>>>>>> f598ec936e971ef831603ff3de72356ce14cefe6
 </div>
 </body>
 
