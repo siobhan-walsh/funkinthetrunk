@@ -32,14 +32,23 @@ body {
 	width:80%;
 	margin-left:10%;
 	margin-right:10%;
+	
 }
 
 .centering img {
 	max-width:100%;
 	align-content:center;
-	opacity:1;
+	max-height:100%;
+	margin-bottom:0px;
+	vertical-align:bottom;
 }
-
+header {
+	margin-bottom:0px;
+	background-color:rgba(47, 48, 54);
+}
+header img {
+	margin-bottom:0px;
+}
 nav {
 	left:0;
 	right:0;
@@ -81,11 +90,11 @@ nav	li:hover > a {color:#00a99a;}
 
 nav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	width: 100%;
 	clear: both;
-	border: 0;
+	border: 0px;
 		}
 		
 nav li {
@@ -98,7 +107,7 @@ nav li {
 	background: #2f3036;
 	text-decoration: none;
 	border:0;
-	margin:0;
+	margin-top:0px;
 		}
 
 nav li:hover {
