@@ -710,7 +710,12 @@ h1 {
 }
 
 .band { 
-    margit-left: 15%;
     width: 100%;
+    background-color: #000000;
+    
 }
 
+.band img {
+    margin-left: 15%;
+   
+}
