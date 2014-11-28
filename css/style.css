@@ -605,7 +605,7 @@ h3.back{
 /*start index section */
 
 p.title {
-	font-size: 75px;
+	font-size: 50px;
 	text-align:center;
     color: #2f3036;
 }
@@ -633,7 +633,7 @@ p.link {
 	border-right: 20px solid transparent;
 	border-top: 20px solid #00a99a;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 25%;
 }
 
 /*start events section */
@@ -707,5 +707,10 @@ h1 {
 	margin-right:20%;
 	position:absolute;
 	width:60%;
+}
+
+.band { 
+    margit-left: 15%;
+    width: 100%;
 }
 
