@@ -1,0 +1,296 @@
+/* slideshow frame */
+
+
+		#show {
+			width: 90%;
+			position: relative;
+			margin-left:10%;
+			margin-top:20%;
+		}
+
+		#show .slide {
+			border: 10px solid #000;
+			position: relative;
+			top: 0;
+			left: 0;
+			max-width:100%;
+			overflow: hidden;
+			text-align: center;
+		}
+
+		#show .slide p {
+			font-size: 13px;
+			text-align: left;
+			position: relative;
+			z-index: 5;
+			padding: 5px;
+			margin-top: -83px;
+			color: #fefefe;
+			height: 70px;
+			background: rgba(0,0,0,0.8);
+		}
+
+/* single image - copy from here */
+.slide img {
+	max-width:100%;
+	border-color:#000000;
+	border-width:8px;
+	border-style:groove;
+}
+	.img1 {
+		position:absolute;
+		animation: img 40s infinite;
+		-o-animation: img 40s infinite;
+		-moz-animation: img 40s infinite;
+		-webkit-animation: img 40s infinite;
+	}
+
+@-webkit-keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+/* 
+to that moment 
+then change the number on img{}
+also you have to make it right with % (remember!)
+*/
+
+	.img2 {
+		position:absolute;
+		animation: img2 40s infinite;
+		-o-animation: img2 40s infinite;
+		-moz-animation: img2 40s infinite;
+		-webkit-animation: img2 40s infinite;
+	}
+
+	.img3 {
+		position:absolute;
+		animation: img3 40s infinite;
+		-o-animation: img3 40s infinite;
+		-moz-animation: img3 40s infinite;
+		-webkit-animation: img3 40s infinite;
+	}
+
+	.img4 {
+		position:absolute;
+		animation: img4 40s infinite;
+		-o-animation: img4 40s infinite;
+		-moz-animation: img4 40s infinite;
+		-webkit-animation: img4 40s infinite;
+	}
+
+	.img5 {
+		position:absolute;
+		animation: img5 40s infinite;
+		-o-animation: img5 40s infinite;
+		-moz-animation: img5 40s infinite;
+		-webkit-animation: img5 40s infinite;
+	}
+
+/* keyframing */
+
+@-webkit-keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img5 {
+0% {opacity: 1;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@keyframes img5 {
+0% {opacity: 1;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes img5 {
+0% {opacity: 1;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}

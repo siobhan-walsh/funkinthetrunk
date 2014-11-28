@@ -186,48 +186,289 @@ footer {
 	float:right;
 	margin-top:4%;
 	margin-left:0;
-	background-color:#000000; 
 	width:60%;
 	margin-bottom:4%;
+	position:relative;
 }
- /* http://codepen.io/pixelgrid/pen/hjBrE */
+		#show {
+			width: 90%;
+			position: relative;
+			margin-left:10%;
+			margin-top:20%;
+		}
 
-.slidecontainer{
-  margin:50px auto;
-  width:500px;
-  height:300px;
-  overflow:hidden;
-  border:10px solid;
-  border-top-color:#856036;
-  border-left-color:#5d4426;
-  border-bottom-color:#856036;
-  border-right-color:#5d4426;
-  position:relative;
-
+		#show .slide {
+			border: 10px solid #000;
+			position: relative;
+			top: 0;
+			left: 0;
+			max-width:100%;
+			overflow: hidden;
+			text-align: center;
+		}
+		.slide img {
+	max-width:100%;
+	border-color:#000000;
+	border-width:8px;
+	border-style:groove;
 }
-.photo{
-  position:absolute;
-  animation:round 16s infinite;
-  opacity:0;
-  
+	.img1 {
+		position:absolute;
+		animation: img 40s infinite;
+		-o-animation: img 40s infinite;
+		-moz-animation: img 40s infinite;
+		-webkit-animation: img 40s infinite;
+	}
+
+@-webkit-keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
 }
-@keyframes round{   
-  25%{opacity:1;}
-  40%{opacity:0;}
-} 
 
-img:nth-child(3){animation-delay:4s;}
-img:nth-child(2){animation-delay:8s;}
-img:nth-child(1){animation-delay:12s;}
-
-
-
-
-
-.slideshow img {
-	max-width:100%; 
+@keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
 }
 
+@-moz-keyframes img1 {
+0% {opacity: 0;}
+10% {opacity: 1;}
+20% {opacity: 1;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+/* 
+to that moment 
+then change the number on img{}
+also you have to make it right with % (remember!)
+*/
+
+	.img2 {
+		position:absolute;
+		animation: img2 40s infinite;
+		-o-animation: img2 40s infinite;
+		-moz-animation: img2 40s infinite;
+		-webkit-animation: img2 40s infinite;
+	}
+
+	.img3 {
+		position:absolute;
+		animation: img3 40s infinite;
+		-o-animation: img3 40s infinite;
+		-moz-animation: img3 40s infinite;
+		-webkit-animation: img3 40s infinite;
+	}
+
+	.img4 {
+		position:absolute;
+		animation: img4 40s infinite;
+		-o-animation: img4 40s infinite;
+		-moz-animation: img4 40s infinite;
+		-webkit-animation: img4 40s infinite;
+	}
+
+	.img5 {
+		position:absolute;
+		animation: img5 40s infinite;
+		-o-animation: img5 40s infinite;
+		-moz-animation: img5 40s infinite;
+		-webkit-animation: img5 40s infinite;
+	}
+
+/* keyframing */
+
+@-webkit-keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img2 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 1;}
+40% {opacity: 1;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img3 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 1;}
+60% {opacity: 1;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes img4 {
+0% {opacity: 0;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 1;}
+80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes img5 {
+0% {opacity: 1;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@keyframes img5 {
+0% {opacity: 1;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes img5 {
+0% {opacity: 1;}
+10% {opacity: 0;}
+20% {opacity: 0;}
+30% {opacity: 0;}
+40% {opacity: 0;}
+50% {opacity: 0;}
+60% {opacity: 0;}
+70% {opacity: 0;}
+80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 1;}
+}
 .soundplayer {
 	max-width:100%;
 	margin:4%;
