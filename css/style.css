@@ -138,7 +138,17 @@ footer {
 	padding-right:100%;
 	padding-bottom:10%;
 }
+.socialmedia {
 
+}
+.smbuttons {
+	width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+.smbuttons img {
+	max-width:25%;
+}
 /* start music page section */
 
 .blurb {
@@ -504,7 +514,12 @@ p.info{
 hr {
 	width: 40%
 }
-
+.smbuttons2 {
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-bottom:5%;
+}
 #form-div {
   background-color:#2f3036;
   width:50%;
