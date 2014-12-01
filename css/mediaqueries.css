@@ -3,3 +3,29 @@
 
 /*mediaquieries*/
 
+
+/* imac 27" */
+
+@media all and (min-width:1921px) and (max-width: 2560px) {
+	
+     .pagewrap {
+	background-color:#ffffff;
+	margin-left:25%;
+	margin-right:25%;
+	border:2%;
+	border-color:#000000;
+	height:100%;
+	max-width:1200px;
+	box-shadow: 0 0 15px black;
+	margin-bottom:2%;
+}
+
+.smbuttons {
+	margin-left:40%;
+	margin-right:40%;
+}
+.smbuttons img {
+	max-width:25%;
+}
+
+}
