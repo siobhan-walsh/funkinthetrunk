@@ -22,68 +22,84 @@
 <body>
 
 
-<?php $fname = $_POST['fname'];
-$lname = $_POST['lname'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$formcontent="From: $fname . $lname \n Message: $message";
-$recipient = "nicholas@funkinthetrunk.net";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
-?>
+	<?php $fname = $_POST['fname'];
+	$lname = $_POST['lname'];
+	$email = $_POST['email'];
+	$message = $_POST['message'];
+	$formcontent="From: $fname . $lname \n Message: $message";
+	$recipient = "nicholas@funkinthetrunk.net";
+	$subject = "Contact Form";
+	$mailheader = "From: $email \r\n";
+	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+
+	?>
 
 
 <div class="pagewrap">
-<header>
-	<div class="centering">
-	<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
+	<header>
+		<div class="centering">
+		<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
 
-<script type="text/javascript">
+		<script type="text/javascript">
 
-//variable that will increment through the images
-var step=0
+			//variable that will increment through the images
+			var step=0
 
-function slideit(){
- //if browser does not support the image object, exit.
- if (!document.images)
-  return
- document.getElementById('slide').src = slideimages[step].src
- if (step<2)
-  step++
- else
-  step=0
- //call function "slideit()" every 2.5 seconds
- setTimeout("slideit()",4000)
-}
+			function slideit(){
+			 //if browser does not support the image object, exit.
+			 if (!document.images)
+			  return
+			 document.getElementById('slide').src = slideimages[step].src
+ 			if (step<2)
+		  	step++
+ 			else
+			  step=0
+ 			//call function "slideit()" every 2.5 seconds
+ 			setTimeout("slideit()",4000)
+			}
 
-slideit()
+			slideit()
 
-</script>
+		</script>
 
-    </div>
-</header>
-<nav>
+    	</div>
+	</header>
+	<nav>
 
-	<ul>
+		<ul>
 
-    	<a href="index.html"><li>Home</li></a>
+    		<a href="index.html"><li>Home</li></a>
 
-     	<a href="about.html"><li>About</li></a>
+     		<a href="about.html"><li>About</li></a>
 
-        <a href="music.html"><li>Music</li></a>
+        	<a href="music.html"><li>Music</li></a>
 
-        <a href="events.html"><li>Events</li></a>
+        	<a href="events.html"><li>Events</li></a>
+	
+        	<li><span style="color:#00a99a;">Contact Us</span></li>
 
-        <li><span style="color:#00a99a;">Contact Us</span></li>
+    	</ul>
 
-    </ul>
+	</nav>
+	<div class="thankyou">
 
-</nav>
-<h2>Thank you for your submission!</h2>
+		<h2>Thank you for your submission!</h2>
+	</div>
 </div>
 
+
+<footer></footer>
+
+<div class="socialmedia">
+	<div class="smbuttons">
+
+		<a href="http://www.facebook.com/funkinthetrunkmusic"><img src="images/facebookicon.png" alt="facebook" width=40px height=40px></a>
+    	<a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg"><img src="images/youtubeicon.png" alt="youtube" width=40px height=40px></a>
+   	 	<a href="http://www.twitter.com/funkinthetrunkz"><img src="images/twittericon.png" alt="twitter" width=40px height=40px></a>
+    	<a href="http://www.instagram.com/funkinthetrunk"><img src="images/instagramicon.png" alt="instagram" width=40px height=40px></a>
+
+    </div>
+  </div>
 
 </body>
 </html>
