@@ -648,7 +648,7 @@ p.link {
 	border-right: 20px solid transparent;
 	border-top: 20px solid #00a99a;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 8%;
 }
 
 /*start events section */
@@ -725,8 +725,10 @@ h1 {
 }
 
 .band { 
-    width: 100%;
+    width: 70%;
     background-color: #000000;
+    margin-left: 15%;
+    margin-right: 15%;
     
 }
 
