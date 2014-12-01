@@ -3,26 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <title>Thank you</title>
-
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<script type="text/javascript">
+
+		var slideimages = new Array() // create new array to preload images
+		slideimages[0] = new Image() // create new instance of image object
+		slideimages[0].src = "images/banner1sax.jpg" // set image object src property to an image's src, preloading that image in the process
+		slideimages[1] = new Image()
+		slideimages[1].src = "images/banner2drums.jpg"
+		slideimages[2] = new Image()
+		slideimages[2].src = "images/banner3guitar.jpg"
+
+	</script>
 </head>
 
 <body>
-<?php
-$fname = $_POST['fname'];
+
+
+<?php $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email = $_POST['email'];
-$text = $_POST['text']'
-
-//Sending Email to form owner
-$header = "From: $email\n"
-. "Reply-To: $email\n";
-$subject = "Submission From My Form";
-$email_to = "nicholas@funkinthetrunk.net";
-$message = "name: $fname . $lname\n"
-. "email: $email\n"; . "text: $text\n";
-mail($email_to, $subject ,$message ,$header ) ;
-
+$message = $_POST['message'];
+$formcontent="From: $fname . $lname \n Message: $message";
+$recipient = "nicholas@funkinthetrunk.net";
+$subject = "Contact Form";
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+echo "Thank You!";
 ?>
 
 
@@ -73,17 +82,8 @@ slideit()
 
 </nav>
 <h2>Thank you for your submission!</h2>
-<footer></footer>
 </div>
-</div>
-</div>
-<div class="socialmedia">
-<div class="smbuttons">
-	<a href="http://www.facebook.com/funkinthetrunkmusic" target="_blank"><img src="images/fb.png" alt="facebook"></a>
-    <a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg" target="_blank"><img src="images/youtube.png" alt="youtube"></a>
-    <a href="http://www.twitter.com/funkinthetrunkz" target="_blank"><img src="images/twit.png" alt="twitter"></a>
-    <a href="http://www.instagram.com/funkinthetrunk" target="_blank"><img src="images/insta.png" alt="instagram"></a>
-    </div>
-  </div>
+
+
 </body>
 </html>
