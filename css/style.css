@@ -142,13 +142,14 @@ footer {
 
 }
 .smbuttons {
-	width:40%;
-	margin-left:35%;
-	margin-right:30%;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
 }
 .smbuttons img {
 	max-width:25%;
-	margin:2%;
+	margin:9%;
+    margin-top: 0%;
 }
 /* start music page section */
 
