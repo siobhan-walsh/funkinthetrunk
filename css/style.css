@@ -725,16 +725,18 @@ h1 {
 }
 
 .band { 
-    width: 70%;
-    background-color: #000000;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;
     
 }
 
 .band img {
-    margin-left: 15%;
-   
+    margin-left: 17%;
+   max-height: 50%;
+    max-width: 65%;
+    	border-style: solid;
+	border-width: 5px;
+	border-color: #00a99a;
+	text-align: center;
 }
 
 /* form thank you page */
