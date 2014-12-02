@@ -588,12 +588,38 @@ textarea {
 	float:left;
 	max-width:100%;
 }
-/*hr.hr{
-	width: 40%;
-	color: #00CCCC;
-	background-color: #00CCCC;
-	height: 1px;
-}*/
+
+#thumbwrap {
+	margin:75px auto;
+	width:252px; height:252px;
+}
+.thumb {
+	float:left; 
+	position:relative;
+	margin:3px;
+}
+
+.thumb:hover {
+	z-index:1;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;	
+	width: 600px
+}
+.thumb:hover span { 
+	visibility:visible;
+	top:37px; left:37px; 
+}
+.thumb span{
+padding: 10px; 
+background:#2f3036; 
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius:8px;
+font-size:.9em;
+color: #C0C0C0;
+}
 .back {
 	width:60%;
 	float:right;
@@ -615,7 +641,7 @@ h3.back{
 	position: relative;
     left: 290px;
     color:#00CCCC
-}*/
+}
 
 /*start index section */
 
