@@ -1,191 +1,193 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>About Us</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
-<link rel="icon" href="images/favicon.png" type="image/png">
-<script type="text/javascript">
+	<meta charset="UTF-8">
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	<script type="text/javascript">
 
-var slideimages = new Array() // create new array to preload images
-slideimages[0] = new Image() // create new instance of image object
-slideimages[0].src = "images/bannerfinal1.jpg" // set image object src property to an image's src, preloading that image in the process
-slideimages[1] = new Image()
-slideimages[1].src = "images/bannerfinal2.jpg"
-slideimages[2] = new Image()
-slideimages[2].src = "images/bannerfinal3.jpg"
+		var slideimages = new Array() // create new array to preload images
+		slideimages[0] = new Image() // create new instance of image object
+		slideimages[0].src = "images/bannerfinal1.jpg" // set image object src property to an 				image's src, preloading that image in the process
+		slideimages[1] = new Image()
+		slideimages[1].src = "images/bannerfinal2.jpg"
+		slideimages[2] = new Image()
+		slideimages[2].src = "images/bannerfinal3.jpg"
 
-</script>
+	</script>
 </head>
 
 <body>
-<div class="pagewrap">
-<header>
-	<div class="centering">
-	<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
+	<div class="pagewrap">
+		<header>
+			<div class="centering">
+				<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
 
-<script type="text/javascript">
+				<script type="text/javascript">
 
-//variable that will increment through the images
-var step=0
+					//variable that will increment through the images
+					var step=0
 
-function slideit(){
- //if browser does not support the image object, exit.
- if (!document.images)
-  return
- document.getElementById('slide').src = slideimages[step].src
- if (step<2)
-  step++
- else
-  step=0
- //call function "slideit()" every 2.5 seconds
- setTimeout("slideit()",4000)
-}
+					function slideit(){
+ 					//if browser does not support the image object, exit.
+					 if (!document.images)
+					  return
+ 					document.getElementById('slide').src = slideimages[step].src
+ 					if (step<2)
+ 					 step++
+					 else
+					  step=0
+					 //call function "slideit()" every 2.5 seconds
+					 setTimeout("slideit()",4000)
+					}
 
-slideit()
+					slideit()
 
-</script>
+				</script>
 
-    </div>
+  		  	</div>
 
-</header>
-<nav>
+		</header>
+		<nav>
 
-	<ul>
+			<ol>
 
-    	<a href="index.html"><li>Home</li></a>
+    			<a href="index.html"><li>Home</li></a>
 
-     	<li><span style="color:#00a99a;">About</span></li>
+     			<li><span style="color:#00a99a;">About</span></li>
 
-        <a href="music.html"><li>Music</li></a>
+       	 		<a href="music.html"><li>Music</li></a>
 
-        <a href="events.html"><li>Events</li></a>
+        		<a href="events.html"><li>Events</li></a>
 
-        <a href="contact.html"><li>Contact Us</li></a>
+        		<a href="contact.html"><li>Contact Us</li></a>
 
-    </ul>
+   	 		</ol>
 
-</nav>
-<div class="middlesection">
-<h2> About Us </h2>
-<hr/>
-<p class="blurb">Funk in the Trunk is a band born and raised in Vancouver, BC. We enjoy expressing ourselves through the sounds and beats of our instruments. Music is our passion, and we focus on making a big sound in an intimate setting.</p>
-<br>
-<br>
+		</nav>
+        
+	<div class="middlesection">
+		<h2> About Us </h2>
+		<hr/>
+		<p class="blurb">Funk in the Trunk is a band born and raised in Vancouver, BC. We enjoy expressing ourselves through the sounds and beats of our instruments. Music is our passion, and we focus on making a big sound in an intimate setting.</p>
+		<br>
+		<br>
 
-<div class="thumbwrap">
-<div class="profiles">
-<div class="profileimage">
-<a class="thumb" href="#">
-<img src="images/Untitled-5.png" alt="Parker">
-<span>
-<img src="images/parker_playing.jpg" alt="Parker">
-<br/>Parker started playing the guitar when he was 13 after his friend suggested it to him, and has been in love with it ever since.
-</span>
-</a>
-</div>
+		<div class="thumbwrap">
+			<div class="profiles">
+				<div class="profileimage">
+					<a class="thumb" href="#">
+					<img src="images/Untitled-5.png" alt="Parker">
+					<span>
+						<img src="images/parker_playing.jpg" alt="Parker">
+						<br/>Parker started playing the guitar when he was 13 after his friend suggested it to him, and has been in love with it ever since.
+					</span>
+					</a>
+				</div>
 
-<div class="back">
-<h3>Parker</h3>
-<hr class="hr">
-<p>Parker started playing the guitar when he was 13 after his friend suggested it to him, and has been in love with it ever since.
-</p>
-</div>
-</div>
-
-<div class="thumbwrap">
-<div class="profiles2">
-<div class="profileimage">
-<a class="thumb" href="#">
-<img src="images/Untitled-4.png" alt="Nicky">
-<span>
-<img src="images/nicky_playing.jpg" alt="Nicky">
-</br>Nicky has been playing trombone for 10 years. He first picked up the instrument as a 10 year old because he thought it sounded funny, but fell in love. He loves playing funk music, and thinks the trombone is perfect for that sound.
-</span>
-</a>
-</div>
-
-
-<div class="back">
-<h3>Nicky</h3>
-<hr class="hr">
-<p>Nicky has been playing trombone for 10 years. He first picked up the instrument as a 10 year old because he thought it sounded funny, but fell in love. He loves playing funk music, and thinks the trombone is perfect for that sound.</p>
-</div>
-</div>
-
-<div class="thumbwrap">
-<div class="profiles">
-<div class="profileimage">
-<a class="thumb" href="#">
-<img src="images/Untitled-3.png" alt="Dylan">
-<span>
-<img src="images/dylan_smile.jpg" alt="Dylan">
-<br/>Dylan started playing the saxophone when he was 10 years old. He loves the versatility of the instrument and being able to grab the attention of the crowd.
-</span>
-</a>
-</div>
+				<div class="back">
+					<h3>Parker</h3>
+					<hr class="hr">
+					<p>Parker started playing the guitar when he was 13 after his friend suggested it to him, and has been in love with it ever since.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="thumbwrap">
+			<div class="profiles2">
+				<div class="profileimage">
+					<a class="thumb" href="#">
+					<img src="images/Untitled-4.png" alt="Nicky">
+					<span>
+						<img src="images/nicky_playing.jpg" alt="Nicky">
+						</br>Nicky has been playing trombone for 10 years. He first picked up the instrument as a 10 year old because he thought it sounded funny, but fell in love. He loves playing funk music, and thinks the trombone is perfect for that sound.
+					</span>
+					</a>
+				</div>
 
 
-<div class="back">
-<h3>Dylan</h3>
-<hr class="hr">
-<p>Dylan started playing the saxophone when he was 10 years old. He loves the versatility of the instrument and being able to grab the attention of the crowd.</p>
-</div>
-</div>
+				<div class="back">
+					<h3>Nicky</h3>
+					<hr class="hr">
+					<p>Nicky has been playing trombone for 10 years. He first picked up the instrument as a 10 year old because he thought it sounded funny, but fell in love. He loves playing funk music, and thinks the trombone is perfect for that sound.</p>
+				</div>
+			</div>
+		</div>
+		<div class="thumbwrap">
+			<div class="profiles">
+				<div class="profileimage">
+					<a class="thumb" href="#">
+					<img src="images/Untitled-3.png" alt="Dylan">
+					<span>
+						<img src="images/dylan_smile.jpg" alt="Dylan">
+						<br>Dylan started playing the saxophone when he was 10 years old. He loves the versatility of the instrument and being able to grab the attention of the crowd.
+					</span>
+					</a>
+				</div>
 
-<div class="thumbwrap">
-<div class="profiles2">
-<div class="profileimage">
-<a class="thumb" href="#">
-<img src="images/Untitled-2.png" alt="Drummer">
-<span>
-<img src="images/drummer.png" alt="juan">
-<br/>Juan has been playing drums since he was 13. He started off with latin drums, and later began exploring different types of jazz percussion. His biggest influence is Tony Williams.
-</span>
-</a>
-</div>
 
-<div class="back">
-<h3>Juan</h3>
-<hr class="hr">
-<p>Juan has been playing drums since he was 13. He started off with latin drums, and later began exploring different types of jazz percussion. His biggest influence is Tony Williams.</p>
-</div>
-</div>
+				<div class="back">
+					<h3>Dylan</h3>
+					<hr class="hr">
+					<p>Dylan started playing the saxophone when he was 10 years old. He loves the versatility of the instrument and being able to grab the attention of the crowd.</p>
+				</div>
+			</div>
+		</div>
+		<div class="thumbwrap">
+			<div class="profiles2">
+				<div class="profileimage">
+				<a class="thumb" href="#">
+				<img src="images/Untitled-2.png" alt="Drummer">
+				<span>
+					<img src="images/drummer.png" alt="juan">
+					<br>Juan has been playing drums since he was 13. He started off with latin drums, and later began exploring different types of jazz percussion. His biggest influence is Tony Williams.
+				</span>
+				</a>
+			</div>
 
-<div class="thumbwrap">
-<div class="profiles">
-<div class="profileimage">
-<a class="thumb" href="#">
-<img src="images/Untitled-1.png" alt="Chad">
-<span>
-<img src="images/chad.png" alt="chad">
-<br/>Chad originally played the trumpet, but started playing bass guitar when he was 13. He loves the sound and groove. His favourite type of music is smooth jazz.
-</span>
-</a>
-</div>
+			<div class="back">
+				<h3>Juan</h3>
+				<hr class="hr">
+				<p>Juan has been playing drums since he was 13. He started off with latin drums, and later began exploring different types of jazz percussion. His biggest influence is Tony Williams.</p>
+			</div>
+		</div>
+	</div>
+	<div class="thumbwrap">
+		<div class="profiles">
+			<div class="profileimage">
+				<a class="thumb" href="#">
+				<img src="images/Untitled-1.png" alt="Chad">
+				<span>
+					<img src="images/chad.png" alt="chad">
+					<br>Chad originally played the trumpet, but started playing bass guitar when he was 13. He loves the sound and groove. His favourite type of music is smooth jazz.
+				</span>
+				</a>
+			</div>
 
-<div class="back">
-<h3>Chad</h3>
-<hr class="hr">
-<p>Chad originally played the trumpet, but started playing bass guitar when he was 13. He loves the sound and groove. His favourite type of music is smooth jazz.</p>
-</div>
-</div>
-
-</div>
-<footer></footer>
+			<div class="back">
+				<h3>Chad</h3>
+				<hr class="hr">
+				<p>Chad originally played the trumpet, but started playing bass guitar when he was 13. He loves the sound and groove. His favourite type of music is smooth jazz.</p>
+			</div>
+		</div>
+       </div>
+	
+	</div>
+	<footer></footer>
 </div>
 <div class="socialmedia">
-<div class="smbuttons">
-
-	<a href="http://www.facebook.com/funkinthetrunkmusic"><img src="images/facebookicon.png" alt="facebook" width=40px height=40px> </a>
-    <a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg"><img src="images/youtubeicon.png" alt="youtube" width=40px height=40px></a>
-    <a href="http://www.twitter.com/funkinthetrunkz"><img src="images/twittericon.png" alt="twitter" width=40px height=40px></a>
-    <a href="http://www.instagram.com/funkinthetrunk"><img src="images/instagramicon.png" alt="instagram" width=40px height=40px></a>
 
 
+	<div class="smbuttons">
+		<a href="http://www.facebook.com/funkinthetrunkmusic" target="_blank"><img src="images/facebookicon.png" alt="facebook" width=40px height=40px></a>
+    	<a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg" target="_blank"><img src="images/youtubeicon.png" alt="youtube" width=40px height=40px></a>
+    	<a href="http://www.twitter.com/funkinthetrunkz" target="_blank"><img src="images/twittericon.png" alt="twitter" width=40px height=40px></a>
+    	<a href="http://www.instagram.com/funkinthetrunk" target="_blank"><img src="images/instagramicon.png" alt="instagram" width=40px height=40px></a>
     </div>
-  </div>
+
+</div>
 </body>
 
 </html>

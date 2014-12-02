@@ -88,7 +88,7 @@ nav a:hover {
 
 nav	li:hover > a {color:#00a99a;}
 
-nav ul {
+nav ol {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -143,11 +143,12 @@ footer {
 }
 .smbuttons {
 	width:40%;
-	margin-left:30%;
+	margin-left:35%;
 	margin-right:30%;
 }
 .smbuttons img {
 	max-width:25%;
+	margin:2%;
 }
 /* start music page section */
 
