@@ -181,7 +181,9 @@ footer {
 	list-style-type:none;
 }
 
-
+.song li {
+	cursor:default;
+}
 .song li > audio {
 	visibility:hidden;
  	opacity:0;
