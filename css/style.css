@@ -125,9 +125,9 @@ nav	li:hover > img {
 
 .middlesection {
 	position:relative;
-	max-width:1000px;
-	margin-left:15%;
-	margin-right:15%;
+	max-width:80%;
+	margin-left:10%;
+	margin-right:10%;
 	margin-top:50px;
 	max-height:100%;
 }
@@ -139,18 +139,18 @@ footer {
 	padding-bottom:10%;
 }
 .socialmedia {
+	max-width:1200px;
+	margin-left:10%;
+	margin-right:10%;
 
 }
-.smbuttons {
-	width:60%;
-	margin-left:20%;
-	margin-right:20%;
-}
 .smbuttons img {
-	max-width:25%;
-	margin:9%;
-    margin-top: 0%;
+	max-width:5%;
+	margin-left:10%;
+	margin-right:5%;
 }
+
+
 /* start music page section */
 
 .blurb {
@@ -164,36 +164,29 @@ footer {
 	}
 
 .musiclist {
-	color:#000000;
+	display:block;
 	float:left;
+	padding-left:0;
 	width:40%;
-	font-family: helveticalight, sans-serif;
-	clear:none;
-	font-size:1em;
+	margin-left:0;
+	clear:left;
 	margin-top:4%;
-	}
-
-.musiclist h1 {
 	text-align:left;
-	margin:5%;
-}
+	align:left;
+	clear:left;
+	}
 
 .musiclist li {
 	text-decoration:none;
 	list-style-type:none;
 }
 
-#content {
-	width:50%;
-	float:right;
-	margin-top:2%;
-	height:100%;
-}
 
 .song li > audio {
 	visibility:hidden;
  	opacity:0;
 	transition:visibility 0s linear 0.8s,opacity 0.8s linear;
+	max-width:100%;
 }
 
 
@@ -206,7 +199,7 @@ footer {
 .slideshow {
 	float:right;
 	margin-top:4%;
-	margin-left:0;
+	margin-left:;
 	width:60%;
 	margin-bottom:4%;
 	position:relative;
@@ -490,11 +483,6 @@ also you have to make it right with % (remember!)
 90% {opacity: 1;}
 100% {opacity: 1;}
 }
-.soundplayer {
-	max-width:100%;
-	margin:4%;
-	margin-top:2%;
-}
 
 
 /*start contact section */
@@ -544,7 +532,7 @@ textarea {
     height: 150px;
  }
 
-#button{
+.button{
   width: 100%;
   border: #FFFFFF solid 6px;
   background-color: #00CCCC;
@@ -554,7 +542,7 @@ textarea {
   padding-bottom:22px;
 }
 
-#button:hover{
+.button:hover{
   background-color: gray;
   color: #00CCCC;
 }
