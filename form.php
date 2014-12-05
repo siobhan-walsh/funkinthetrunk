@@ -5,7 +5,7 @@
 <title>Thank you</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
-<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="icon" href="images/favicon.jpg" type="image/jpg">
 <script type="text/javascript">
 
 		var slideimages = new Array() // create new array to preload images
@@ -64,23 +64,25 @@
 
     	</div>
 	</header>
-	<nav>
 
-		<ul>
+		<nav>
 
-    		<a href="index.html"><li>Home</li></a>
+			<ol>
 
-     		<a href="about.html"><li>About</li></a>
+    			<a href="index.html"><li>Home</li></a>
 
-        	<a href="music.html"><li>Music</li></a>
+       			<a href="about.html"><li>About</li></a>
 
-        	<a href="events.html"><li>Events</li></a>
-	
-        	<li><span style="color:#00a99a;">Contact Us</span></li>
+        		<a href="music.html"><li>Music</li></a>
 
-    	</ul>
+       			<a href="events.html"><li>Events</li></a>
 
-	</nav>
+        		<a href="contact.html"><li>Contact Us</li></a>
+
+   			</ol>
+
+		</nav>
+		
 	<div class="thankyou">
 
 		<h2>Thank you for your submission!</h2>
@@ -91,15 +93,16 @@
 <footer></footer>
 
 <div class="socialmedia">
-	<div class="smbuttons">
 
-		<a href="http://www.facebook.com/funkinthetrunkmusic"><img src="images/facebookicon.png" alt="facebook" width=40px height=40px></a>
-    	<a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg"><img src="images/youtubeicon.png" alt="youtube" width=40px height=40px></a>
-   	 	<a href="http://www.twitter.com/funkinthetrunkz"><img src="images/twittericon.png" alt="twitter" width=40px height=40px></a>
-    	<a href="http://www.instagram.com/funkinthetrunk"><img src="images/instagramicon.png" alt="instagram" width=40px height=40px></a>
 
-    </div>
-  </div>
+		<div class="smbuttons">
+			<a href="http://www.facebook.com/funkinthetrunkmusic" target="_blank"><img src="images/facebookicon.png" alt="facebook" ></a>
+    		<a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg" target="_blank"><img src="images/youtubeicon.png" alt="youtube"></a>
+    		<a href="http://www.twitter.com/funkinthetrunkz" target="_blank"><img src="images/twittericon.png" alt="twitter"></a>
+    		<a href="http://www.instagram.com/funkinthetrunk" target="_blank"><img src="images/instagramicon.png" alt="instagram" ></a>
+    	</div>
+
+	</div>
 
 </body>
 </html>

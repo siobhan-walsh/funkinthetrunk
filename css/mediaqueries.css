@@ -19,13 +19,17 @@
 	box-shadow: 0 0 15px black;
 	margin-bottom:2%;
 }
-/*
-.smbuttons {
-	margin-left:40%;
-	margin-right:40%;
+
+.socialmedia {
+	max-width:1200px;
+	margin-left:26%;
+	margin-right:25%%;
+
 }
 .smbuttons img {
-	max-width:25%;
-} */
+	max-width:4%;
+	margin-left:10%;
+	margin-right:10%;
+}
 
 }
