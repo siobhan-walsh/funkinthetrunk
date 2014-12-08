@@ -1,26 +1,55 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Thank you</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
-<link rel="icon" href="images/favicon.jpg" type="image/jpg">
-<script type="text/javascript">
+
+	<meta charset="UTF-8">
+	<title>Funk in the Trunk</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+	<link rel="icon" href="images/favicon.jpg" type="image/jpg">
+	<script type="text/javascript">
 
 		var slideimages = new Array() // create new array to preload images
 		slideimages[0] = new Image() // create new instance of image object
-		slideimages[0].src = "images/banner1sax.jpg" // set image object src property to an image's src, preloading that image in the process
+		slideimages[0].src = "images/bannerfinal1.jpg" // set image object src property to an image's src, preloading that image in the process
 		slideimages[1] = new Image()
-		slideimages[1].src = "images/banner2drums.jpg"
+		slideimages[1].src = "images/bannerfinal2.jpg"
 		slideimages[2] = new Image()
-		slideimages[2].src = "images/banner3guitar.jpg"
+		slideimages[2].src = "images/bannerfinal3.jpg"
 
 	</script>
 </head>
 
 <body>
+	<div class="pagewrap">
+		<header>
+			<div class="centering">
+				<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
 
+				<script type="text/javascript">
+
+					//variable that will increment through the images
+					var step=0
+
+					function slideit(){
+					 //if browser does not support the image object, exit.
+					 if (!document.images)
+					  return
+ 					document.getElementById('slide').src = slideimages[step].src
+					 if (step<2)
+					  step++
+						 else
+ 					 step=0
+					 //call function "slideit()" every 2.5 seconds
+ 					setTimeout("slideit()",4000)
+					}
+
+				slideit()
+
+				</script>
+
+   			 </div>
+			</header>
 
 	<?php $fname = $_POST['fname'];
 	$lname = $_POST['lname'];
@@ -34,36 +63,6 @@
 
 	?>
 
-
-<div class="pagewrap">
-	<header>
-		<div class="centering">
-		<img src="images/drums.jpg" id="slide" alt="Funk in the Trunk" >
-
-		<script type="text/javascript">
-
-			//variable that will increment through the images
-			var step=0
-
-			function slideit(){
-			 //if browser does not support the image object, exit.
-			 if (!document.images)
-			  return
-			 document.getElementById('slide').src = slideimages[step].src
- 			if (step<2)
-		  	step++
- 			else
-			  step=0
- 			//call function "slideit()" every 2.5 seconds
- 			setTimeout("slideit()",4000)
-			}
-
-			slideit()
-
-		</script>
-
-    	</div>
-	</header>
 
 		<nav>
 
@@ -82,7 +81,7 @@
    			</ol>
 
 		</nav>
-		
+	<div class="middlesection">	
 	<div class="thankyou">
 
 		<h2>Thank you for your submission!</h2>
@@ -91,7 +90,7 @@
 
 
 <footer></footer>
-
+</div>
 <div class="socialmedia">
 
 
