@@ -48,20 +48,20 @@
 
 				</script>
 
-   			 </div>
-			</header>
+   			</div>
+		</header>
 
-	<?php $fname = $_POST['fname'];
-	$lname = $_POST['lname'];
-	$email = $_POST['email'];
-	$message = $_POST['message'];
-	$formcontent="From: $fname . $lname \n Message: $message";
-	$recipient = "nicholas@funkinthetrunk.net";
-	$subject = "Contact Form";
-	$mailheader = "From: $email \r\n";
-	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+		<?php $fname = $_POST['fname'];
+		$lname = $_POST['lname'];
+		$email = $_POST['email'];
+		$message = $_POST['message'];
+		$formcontent="From: $fname . $lname \n Message: $message";
+		$recipient = "nicholas@funkinthetrunk.net";
+		$subject = "Contact Form";
+		$mailheader = "From: $email \r\n";
+		mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 
-	?>
+		?>
 
 
 		<nav>
@@ -81,27 +81,28 @@
    			</ol>
 
 		</nav>
-	<div class="middlesection">	
-	<div class="thankyou">
+		<div class="middlesection">	
+			<div class="thankyou">
+				<dl>
+        			<dt>Thank you!</dt>
+						<dd>Your message has been submitted.</dd>
+                		<dd>We will get back to you as soon as we can!</dd>
+        		</dl>
+			</div>
+		</div>
 
-		<h2>Thank you for your submission!</h2>
-	</div>
-</div>
 
-
-<footer></footer>
+	<footer></footer>
 </div>
 <div class="socialmedia">
-
-
-		<div class="smbuttons">
+	<div class="smbuttons">
 			<a href="http://www.facebook.com/funkinthetrunkmusic" target="_blank"><img src="images/facebookicon.png" alt="facebook" ></a>
     		<a href="https://www.youtube.com/channel/UCyvhGQ6NigqCNQpmtbOW_vg" target="_blank"><img src="images/youtubeicon.png" alt="youtube"></a>
     		<a href="http://www.twitter.com/funkinthetrunkz" target="_blank"><img src="images/twittericon.png" alt="twitter"></a>
     		<a href="http://www.instagram.com/funkinthetrunk" target="_blank"><img src="images/instagramicon.png" alt="instagram" ></a>
-    	</div>
+    </div>
 
-	</div>
+</div>
 
 </body>
 </html>

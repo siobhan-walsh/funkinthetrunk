@@ -765,3 +765,10 @@ h1 {
 	padding-top:40%;
 	padding-bottom:40%;
 }
+.thankyou dl {
+    color: black;
+    text-align: center;
+	font-size:2em;
+	font-weight:bold;
+	line-height:120%;
+}
