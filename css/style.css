@@ -166,23 +166,23 @@ footer {
 .musiclist {
 	display:block;
 	float:left;
-	padding-left:0;
 	width:40%;
-	margin-left:0;
-	clear:left;
 	margin-top:4%;
-	text-align:left;
-	align:left;
-	clear:left;
 	}
 .musiclist ul {
 	float:left;
 	margin-left:0;
+	text-align:left;
+	display:block;
+	padding-left:0;
+	line-height:260%;
+	
 }
 .musiclist li {
 	float:left;
 	text-decoration:none;
 	list-style-type:none;
+
 }
 
 .musiclist hr {
