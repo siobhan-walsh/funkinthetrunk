@@ -2,7 +2,7 @@
 /* CSS Document */
 
 
-/* this layout should apply to all the pages */	
+/* start layout that applies to all the pages */	
 html {
 	background: url(../images/blue4.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -175,12 +175,24 @@ footer {
 	align:left;
 	clear:left;
 	}
-
+.musiclist ul {
+	float:left;
+	margin-left:0;
+}
 .musiclist li {
+	float:left;
 	text-decoration:none;
 	list-style-type:none;
 }
 
+.musiclist hr {
+	float:left;
+	max-width:100%;
+	line-height:inherit;
+}
+.musiclist h3 {
+	margin:0;
+}
 .song li {
 	cursor:default;
 }
@@ -206,34 +218,35 @@ footer {
 	margin-bottom:4%;
 	position:relative;
 }
-		#show {
-			width: 90%;
-			position: relative;
-			margin-left:10%;
-			margin-top:20%;
-		}
-
-		#show .slide {
-			border: 10px solid #000;
-			position: relative;
-			top: 0;
-			left: 0;
-			max-width:100%;
-			overflow: hidden;
-			text-align: center;
-		}
-		.slide img {
-	max-width:100%;
-	border-color:#000000;
-	border-width:8px;
-	border-style:groove;
+#show {
+	width: 90%;
+	position: relative;
+	margin-left:10%;
+	margin-top:20%;
 }
-	.img1 {
-		position:absolute;
-		animation: img 40s infinite;
-		-o-animation: img 40s infinite;
-		-moz-animation: img 40s infinite;
-		-webkit-animation: img 40s infinite;
+
+#show .slide {
+	border: 10px solid #000;
+	position: relative;
+	top: 0;
+	left: 0;
+	max-width:100%;
+	overflow: hidden;
+	text-align: center;
+}
+.slide img {
+	max-width:100%;
+	border:2%;
+	border-color:#000000;
+	box-shadow: 0 0 15px black;
+	
+}
+.img1 {
+	position:absolute;
+	animation: img 40s infinite;
+	-o-animation: img 40s infinite;
+	-moz-animation: img 40s infinite;
+	-webkit-animation: img 40s infinite;
 	}
 
 @-webkit-keyframes img1 {
@@ -281,7 +294,6 @@ footer {
 /* 
 to that moment 
 then change the number on img{}
-also you have to make it right with % (remember!)
 */
 
 	.img2 {
@@ -488,6 +500,7 @@ also you have to make it right with % (remember!)
 
 
 /*start contact section */
+
 h4 {
 	text-align: center;
 }
@@ -506,12 +519,7 @@ p.info{
 hr {
 	width: 40%
 }
-.smbuttons2 {
-	width:50%;
-	margin-left:25%;
-	margin-right:25%;
-	margin-bottom:5%;
-}
+
 #form-div {
   background-color:#2f3036;
   width:50%;
@@ -555,6 +563,7 @@ textarea {
 }
 
 /*start about section */
+
 .profiles {
 	float:left;
 	display:block;
@@ -625,15 +634,6 @@ color: #C0C0C0;
 .back h3 {
 	    color:#00CCCC
 }
-/*p.back{
-    position: relative;
-    left: 20px;
-}
-h3.back{
-	position: relative;
-    left: 290px;
-    color:#00CCCC
-}
 
 /*start index section */
 
@@ -670,6 +670,7 @@ p.link {
 }
 
 /*start events section */
+
 .imageside {
 	width:25%;
 	float:left;
@@ -758,6 +759,7 @@ h1 {
 }
 
 /* form thank you page */
+
 .thankyou {
 	height:100%;
 	padding-top:40%;
