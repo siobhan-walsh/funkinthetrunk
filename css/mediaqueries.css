@@ -7,8 +7,7 @@
 /* imac 27" */
 
 @media all and (min-width:1921px) and (max-width: 2560px) {
-	
-     .pagewrap {
+.pagewrap {
 	background-color:#ffffff;
 	margin-left:25%;
 	margin-right:25%;
