@@ -200,14 +200,18 @@ footer {
 	visibility:hidden;
  	opacity:0;
 	transition:visibility 0s linear 0.8s,opacity 0.8s linear;
+	-webkit-transition:visibility 0s linear 0.8s,opacity 0.8s linear;
 	max-width:100%;
+	width:100%;
 }
-
 
 .song li:hover > audio {
 	visibility:visible;
 	opacity:1;
-	transition-delay:0s;
+	transition:0s;
+	-webkit-transition-delay:0s;
+	width:100%;
+	
 }
 
 .slideshow {
@@ -239,7 +243,8 @@ footer {
 	border:2%;
 	border-color:#000000;
 	box-shadow: 0 0 15px black;
-	
+	height:auto;
+	width:100%;
 }
 .img1 {
 	position:absolute;
@@ -576,6 +581,9 @@ textarea {
 .profiles img {
 	float:left;
 	max-width:100%;
+  height: auto;
+  width:100%;
+
 }
 
 .profiles2 {
@@ -588,6 +596,9 @@ textarea {
 .profiles2 img {
 	float:left;
 	max-width:100%;
+  height: auto;
+  width:100%;
+
 }
 
 #thumbwrap {
